@@ -1,0 +1,45 @@
+name: Restore verified publication files
+on:
+  workflow_dispatch:
+    inputs:
+      source_commit:
+        description: Verified transport commit
+        required: true
+        type: string
+      manifest_sha256:
+        description: SHA256 of the reviewed file manifest
+        required: true
+        type: string
+permissions:
+  contents: write
+concurrency:
+  group: ickg-publication
+  cancel-in-progress: false
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          ref: main
+      - name: Fetch verified file parts
+        env:
+          SOURCE_COMMIT: ${{ inputs.source_commit }}
+        run: |
+          [[ "$SOURCE_COMMIT" =~ ^[0-9a-f]{40}$ ]]
+          git fetch --depth=1 origin "$SOURCE_COMMIT"
+          git archive FETCH_HEAD .transport | tar -x
+      - name: Restore and verify complete files
+        env:
+          MANIFEST_SHA256: ${{ inputs.manifest_sha256 }}
+        run: python .github/scripts/assemble_data.py .transport/manifest.json "$MANIFEST_SHA256"
+      - name: Commit datasets and webpage
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- .gitattributes .gitignore README.md CITATION.cff DATA_USE.md data docs
+          if ! git diff --cached --quiet; then
+            git commit -m "Publish experimental v5 and full v4 graph datasets"
+            git push origin HEAD:main
+          fi
