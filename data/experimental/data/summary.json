@@ -1,0 +1,16 @@
+{
+  "total_companies": 861,
+  "total_batches": 9,
+  "batch_size": 100,
+  "batches": [
+    "batch_01.json",
+    "batch_02.json",
+    "batch_03.json",
+    "batch_04.json",
+    "batch_05.json",
+    "batch_06.json",
+    "batch_07.json",
+    "batch_08.json",
+    "batch_09.json"
+  ]
+}

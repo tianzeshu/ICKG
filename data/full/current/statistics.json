@@ -1,0 +1,204 @@
+{
+  "version": "4.0.0",
+  "cutoff": "current",
+  "status": "released",
+  "formal_nodes": 45230,
+  "entity_types": {
+    "Person": 30795,
+    "Company": 2720,
+    "Patent": 10022,
+    "Product": 379,
+    "Report": 513,
+    "Industry": 670,
+    "Policy": 131
+  },
+  "core_assertions_asserted": 49611,
+  "all_core_assertions": 49612,
+  "distinct_temporal_facts": 47406,
+  "company_company_distinct_facts": 49,
+  "structure_edges": 723,
+  "supplementary_relations": 614,
+  "documents": 86835,
+  "isolates": 0,
+  "company_nodes_with_hasCompany": 2720,
+  "event_time_precision": {
+    "unknown": 44100,
+    "day": 3081,
+    "year": 117,
+    "month": 96,
+    "interval": 12
+  },
+  "statement_kinds": {
+    "patent_bibliographic_assertion": 32021,
+    "classification_inference": 13927,
+    "source_assertion": 757,
+    "explicit_classification": 164,
+    "metadata_report_scope": 399,
+    "operational_event": 390,
+    "original_assertion_entity_identity_normalized": 6,
+    "explicit_policy_support_purpose": 3,
+    "explicit_company_competition": 2,
+    "explicit_normative_policy_support": 223,
+    "explicit_named_issuer_executive_role_table": 1568,
+    "company_own_explicit_business_taxonomy_inference": 124,
+    "explicit_issuer_self_reported_statistical_industry": 23,
+    "assistant_verified_own_business_classification": 4
+  },
+  "evidence_tiers": {
+    "dataset_record": 31105,
+    "current_professional_product_profile": 10991,
+    "full_source": 5713,
+    "product_portfolio": 1190,
+    "metadata_only": 399,
+    "official_project_scope": 47,
+    "core": 92,
+    "current_regulatory_metadata": 29,
+    "official_same_article_partner_business": 13,
+    "official_named_subsidiary_business": 9,
+    "official_legal_profile": 21,
+    "registered_scope": 2
+  },
+  "source_streams": {
+    "company": {
+      "documents": 9,
+      "entities": 1159,
+      "assertions": 1898
+    },
+    "profile": {
+      "documents": 10,
+      "entities": 11,
+      "assertions": 21
+    },
+    "current_company": {
+      "documents": 1292,
+      "entities": 1254,
+      "assertions": 10991
+    },
+    "events": {
+      "documents": 6143,
+      "entities": 973,
+      "assertions": 1443
+    },
+    "knowledge": {
+      "documents": 355,
+      "entities": 1144,
+      "assertions": 1036
+    },
+    "bulk": {
+      "documents": 78684,
+      "entities": 39538,
+      "assertions": 39604
+    },
+    "reports": {
+      "documents": 399,
+      "entities": 399,
+      "assertions": 399
+    },
+    "qualification": {
+      "documents": 5,
+      "entities": 53,
+      "assertions": 47
+    },
+    "sec_profile": {
+      "documents": 29,
+      "entities": 34,
+      "assertions": 29
+    },
+    "owner_profile": {
+      "documents": 1,
+      "entities": 9,
+      "assertions": 9
+    },
+    "curated_company": {
+      "documents": 1,
+      "entities": 3,
+      "assertions": 2
+    },
+    "partner_profile": {
+      "documents": 13,
+      "entities": 13,
+      "assertions": 13
+    },
+    "v4_industry_policy": {
+      "documents": 88,
+      "entities": 298,
+      "assertions": 223
+    },
+    "v4_product_person": {
+      "documents": 125,
+      "entities": 1378,
+      "assertions": 1719
+    }
+  },
+  "unsupported_new_company_candidates": 973,
+  "baseline": {
+    "formal_nodes": 1014,
+    "core_assertions_asserted": 1860,
+    "distinct_temporal_facts": 1114
+  },
+  "growth_factors": {
+    "formal_nodes": 44.606,
+    "core_assertions_asserted": 26.673,
+    "distinct_temporal_facts": 42.555
+  },
+  "growth_targets_met": true,
+  "human_gold": 0,
+  "semiconductor_chain_nodes": 39884,
+  "plan_records": 1,
+  "current_snapshot_date": "2026-10-28",
+  "company_source_worded_leading_labels": 9,
+  "company_qualification_labels": 44,
+  "patents_with_business_classified_owner": 2073,
+  "patents_without_business_classified_owner": 7949,
+  "source_referenced_documents": 43041,
+  "weak_components": 7956,
+  "non_person_entities": 14435,
+  "distinct_facts_excluding_inventor_attribution": 17693,
+  "non_person_entities_vs_total_v2": 14.236,
+  "release_scope": "evidence/schema/ontology/snapshot and assistant semantic checks; no human gold",
+  "product_portfolio_edges": 289,
+  "operational_person_nodes": 1082,
+  "primary_industry_nodes": 233,
+  "v3_entity_types": {
+    "Company": 2650,
+    "Product": 121,
+    "Policy": 88,
+    "Report": 513,
+    "Industry": 600,
+    "Person": 29916,
+    "Patent": 10022
+  },
+  "translation_status": {
+    "assistant_approximate_transliteration": 28956,
+    "source_evidenced_chinese_label": 4790,
+    "chinese_search_label_not_full_title_translation": 9770,
+    "assistant_manual_translation": 1256,
+    "assistant_technical_expansion": 20,
+    "assistant_japanese_han_display_translation": 154,
+    "source_model_identifier_with_chinese_context": 277,
+    "source_recorded_chinese_patent_title": 7
+  },
+  "v3_operational_person_nodes": 203,
+  "v4_unclassified_company_candidates": 0,
+  "distribution": "4.0.0-public-structured-1",
+  "source_text_included": false,
+  "source_images_included": false,
+  "formal_table_counts": {
+    "entities": 45230,
+    "assertions": 49612,
+    "temporal_facts": 47407,
+    "quadruples_event": 47407,
+    "quadruples_observation": 49612,
+    "unknown_event_time": 44101,
+    "classification_structure": 723,
+    "industry_taxonomy": 876,
+    "product_portfolio": 289,
+    "supplementary_relations": 614,
+    "identity_alignment": 1651,
+    "documents": 86835,
+    "mentions": 52638,
+    "supplementary_entities": 243
+  },
+  "candidate_payloads_included": false,
+  "supplementary_nonformal_endpoints": 243
+}

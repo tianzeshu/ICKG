@@ -1,0 +1,9 @@
+{
+  "api_key": "",
+  "endpoint_id": "",
+  "model_name": "",
+  "api_endpoint": "",
+  "companies": [],
+  "news_per_company": 6,
+  "output_dir": "output"
+}

@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: >-
+  如使用本仓库数据，请引用本数据仓库，注明 experimental-v5 或 full-v4
+  及具体快照，并注明 README 中的关联论文。关联论文为软件学报稿件，
+  正式发表信息待核实。
+type: dataset
+title: "ICKG：产业链知识图谱数据"
+authors:
+  - family-names: "田"
+    given-names: "泽庶"
+    affiliation: "哈尔滨工业大学计算学部"
+  - family-names: "白"
+    given-names: "佳敏"
+    affiliation: "哈尔滨工业大学计算学部"
+  - family-names: "张"
+    given-names: "宏莉"
+    affiliation: "哈尔滨工业大学计算学部"
+repository-code: "https://github.com/tianzeshu/ICKG"
+url: "https://tianzeshu.github.io/ICKG/"
+abstract: >-
+  半导体产业链知识图谱数据，包括保留原始 train/dev/test 划分的实验子集 v5，
+  以及具有截至2025和2026-10-28双快照的全量图谱 v4。
+  两部分来源与 schema 不同，不宣称严格包含关系；公开统计不替代论文固定实验指标。
+keywords:
+  - "产业链知识图谱"
+  - "时序知识图谱"
+  - "半导体"
+  - "industrial-chain knowledge graph"
+preferred-citation:
+  type: generic
+  title: "多层次时序产业链知识图谱构建方法研究"
+  authors:
+    - family-names: "田"
+      given-names: "泽庶"
+      affiliation: "哈尔滨工业大学计算学部"
+    - family-names: "白"
+      given-names: "佳敏"
+      affiliation: "哈尔滨工业大学计算学部"
+    - family-names: "张"
+      given-names: "宏莉"
+      affiliation: "哈尔滨工业大学计算学部"
+  notes: "软件学报稿件；正式发表信息、年份、卷期、页码及 DOI 待核实。"

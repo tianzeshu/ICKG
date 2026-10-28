@@ -1,0 +1,227 @@
+{
+  "distribution": "4.0.0-public-structured-1",
+  "snapshot": "current",
+  "knowledge_cutoff": "2026-10-28",
+  "source_version": "4.0.0",
+  "source_read_only": true,
+  "source_export": "exports/current_v4",
+  "source_statistics_sha256": "742373f76f1c29e478d97228f5f5980563acfdcc14f66ad8c48e9c3782a85f78",
+  "source_input_manifest_sha256": "cd0bb54826965fd0a1677a6f418dd865de287caf284cdf8ab000aed5e080a358",
+  "source_text_included": false,
+  "source_images_included": false,
+  "source_originals_license_not_regranted": true,
+  "tables": {
+    "entities": {
+      "file": "entities.jsonl.gz",
+      "records": 45230,
+      "source_records": 45230,
+      "source_sha256": "6def0dcbce936f486981490d4a72a6c59f8bc367a40bed1a0dccb8b6ada9d902",
+      "public_gzip_sha256": "d8e85e8da8af8f70a0e03ef3a505c86220ee6270a71f14bcfff6876c1f85a5e0",
+      "public_gzip_bytes": 18207725,
+      "semantic_signature_sha256": "d46a0cb5049304c905e638313a32ee5ea2b260c4899586d71312490c9a858479",
+      "source_semantic_signature_sha256": "d46a0cb5049304c905e638313a32ee5ea2b260c4899586d71312490c9a858479",
+      "record_count_equal": true,
+      "ids_equal": true,
+      "semantic_signature_equal": true
+    },
+    "assertions": {
+      "file": "assertions.jsonl.gz",
+      "records": 49612,
+      "source_records": 49612,
+      "source_sha256": "3cff739419c3c6afe23ba0ead4cb65a00d3bea24dcc3b695029871e2b2fcce81",
+      "public_gzip_sha256": "12a4f0bfa842bf48d7c25374171f9d27b18039cc10529434589d65cd982b899d",
+      "public_gzip_bytes": 19579437,
+      "semantic_signature_sha256": "03fba3d0f8d0bd066976c9832acdbfc24248c6a896f568fb25a16d5d90c5dbf3",
+      "source_semantic_signature_sha256": "03fba3d0f8d0bd066976c9832acdbfc24248c6a896f568fb25a16d5d90c5dbf3",
+      "record_count_equal": true,
+      "ids_equal": true,
+      "semantic_signature_equal": true
+    },
+    "temporal_facts": {
+      "file": "temporal_facts.jsonl.gz",
+      "records": 47407,
+      "source_records": 47407,
+      "source_sha256": "9e7c52920e5acde8d16c917e9ac72b1f48c6e8d86197b1c108525c982585e30e",
+      "public_gzip_sha256": "a1ae20640ef2a30c36f8a251bc5e79f859fd78178e8cc08dfcccc36f997ad526",
+      "public_gzip_bytes": 11896043,
+      "semantic_signature_sha256": "6ad233b501706a8a786ab2350fdae19572947ab43450bb07babfd72b8e58ee95",
+      "source_semantic_signature_sha256": "6ad233b501706a8a786ab2350fdae19572947ab43450bb07babfd72b8e58ee95",
+      "record_count_equal": true,
+      "ids_equal": true,
+      "semantic_signature_equal": true
+    },
+    "quadruples_event": {
+      "file": "quadruples_event.jsonl.gz",
+      "records": 47407,
+      "source_records": 47407,
+      "source_sha256": "837c587f19918be94f25420394b98efb1ea7f246b60a68a8b8f84381b119fa26",
+      "public_gzip_sha256": "b230424b0b33fd7d7b1bf0e81a8e5ab8e88b7c456ead1972893c567638f84398",
+      "public_gzip_bytes": 2725952,
+      "semantic_signature_sha256": "354d77c8c35e87a5b62ec78b2c67c932743467004ee17fb438326c595cefa056",
+      "source_semantic_signature_sha256": "354d77c8c35e87a5b62ec78b2c67c932743467004ee17fb438326c595cefa056",
+      "record_count_equal": true,
+      "ids_equal": true,
+      "semantic_signature_equal": true
+    },
+    "quadruples_observation": {
+      "file": "quadruples_observation.jsonl.gz",
+      "records": 49612,
+      "source_records": 49612,
+      "source_sha256": "23e9077781815c76ca318960da371c102718fa68d3414f68af80c9f9a4b822af",
+      "public_gzip_sha256": "581e9b6d4d9c5e5f27285de885bb7bcb3eb1be3bf5fc8c63b4b2b48631441720",
+      "public_gzip_bytes": 2050390,
+      "semantic_signature_sha256": "18dd7cb5a08f95b95023291cbf3a293333ef514ddc11aae596dd911262b5ab75",
+      "source_semantic_signature_sha256": "18dd7cb5a08f95b95023291cbf3a293333ef514ddc11aae596dd911262b5ab75",
+      "record_count_equal": true,
+      "ids_equal": true,
+      "semantic_signature_equal": true
+    },
+    "unknown_event_time": {
+      "file": "unknown_event_time.jsonl.gz",
+      "records": 44101,
+      "source_records": 44101,
+      "source_sha256": "874158e9688107a7cc2c11b41e77e8cb5261b7093d43a5d27b2540ba9daaa568",
+      "public_gzip_sha256": "3633cf8e1c97dcaf4351322c4b848460ac7d2c66d09cb45507cf3f12352ab12a",
+      "public_gzip_bytes": 2470876,
+      "semantic_signature_sha256": "58d29f7135945b9bec3e9b7a0d7f7623884c44446a64f0a91f59cc1676899b64",
+      "source_semantic_signature_sha256": "58d29f7135945b9bec3e9b7a0d7f7623884c44446a64f0a91f59cc1676899b64",
+      "record_count_equal": true,
+      "ids_equal": true,
+      "semantic_signature_equal": true
+    },
+    "classification_structure": {
+      "file": "classification_structure.jsonl.gz",
+      "records": 723,
+      "source_records": 723,
+      "source_sha256": "5525f8b811a74d0f98dea6425d2d4285b88d9a66a191bc263a31d1f30143f7b7",
+      "public_gzip_sha256": "40649d4b7f67140c8e89571752da9be7773df47be280a5e95e4a66779c109837",
+      "public_gzip_bytes": 95684,
+      "semantic_signature_sha256": "960c1bdf9b8b00712232487331c2f1a10a1e9fa390a5211d05748829c7130615",
+      "source_semantic_signature_sha256": "960c1bdf9b8b00712232487331c2f1a10a1e9fa390a5211d05748829c7130615",
+      "record_count_equal": true,
+      "ids_equal": true,
+      "semantic_signature_equal": true
+    },
+    "industry_taxonomy": {
+      "file": "industry_taxonomy.jsonl.gz",
+      "records": 876,
+      "source_records": 876,
+      "source_sha256": "665e12123ad2693c8ecf853115beaaf97c34b3b2325bdaf934d8b6af05d72936",
+      "public_gzip_sha256": "90204d63695ac65d7cbe097d3e190279facd94e6b95a7ebced4b36877c24e7da",
+      "public_gzip_bytes": 167534,
+      "semantic_signature_sha256": "49988dd415d44c44a883f12edab73689a78cf6ca997d0ef7535dffc1d3232f71",
+      "source_semantic_signature_sha256": "49988dd415d44c44a883f12edab73689a78cf6ca997d0ef7535dffc1d3232f71",
+      "record_count_equal": true,
+      "ids_equal": true,
+      "semantic_signature_equal": true
+    },
+    "product_portfolio": {
+      "file": "product_portfolio.jsonl.gz",
+      "records": 289,
+      "source_records": 289,
+      "source_sha256": "2a653e7d127ddd6ff3f93d95de2dbc2ad0ee0c0b2e80fc638e1034e1413d1537",
+      "public_gzip_sha256": "0fb49a57ab0d2a97614522b188ced17567ea1cd9596b6b53dec607208b7c3458",
+      "public_gzip_bytes": 50990,
+      "semantic_signature_sha256": "5de180098b485ad53775417dc3ad273b9248abcbc35a36128cdb1fe2149d8247",
+      "source_semantic_signature_sha256": "5de180098b485ad53775417dc3ad273b9248abcbc35a36128cdb1fe2149d8247",
+      "record_count_equal": true,
+      "ids_equal": true,
+      "semantic_signature_equal": true
+    },
+    "supplementary_relations": {
+      "file": "supplementary_relations.jsonl.gz",
+      "records": 614,
+      "source_records": 614,
+      "source_sha256": "9371fde4b1225cfe6f696cae77c18726338c95922506767514a47e300c64df35",
+      "public_gzip_sha256": "9352d39d8bc9934f5b5346acb4dd1137180eba4eeb3ccdabc60e7f99d0c70e69",
+      "public_gzip_bytes": 97867,
+      "semantic_signature_sha256": "ae0a3f3a9ca52147e5efa7378932c6216ac20ede24d744e252f6443a4e35a841",
+      "source_semantic_signature_sha256": "ae0a3f3a9ca52147e5efa7378932c6216ac20ede24d744e252f6443a4e35a841",
+      "record_count_equal": true,
+      "ids_equal": true,
+      "semantic_signature_equal": true
+    },
+    "identity_alignment": {
+      "file": "identity_alignment.jsonl.gz",
+      "records": 1651,
+      "source_records": 1651,
+      "source_sha256": "a435c0409912cd705395d42a11b4740047cc277f47632f8a052c4cf1e2f8af43",
+      "public_gzip_sha256": "83546dd883f6aadfc1951d3f7a021e6da0a0ba9ab7c8d42a5b442c92c952f84d",
+      "public_gzip_bytes": 26632,
+      "semantic_signature_sha256": "a435c0409912cd705395d42a11b4740047cc277f47632f8a052c4cf1e2f8af43",
+      "source_semantic_signature_sha256": "a435c0409912cd705395d42a11b4740047cc277f47632f8a052c4cf1e2f8af43",
+      "record_count_equal": true,
+      "ids_equal": true,
+      "semantic_signature_equal": true
+    },
+    "documents": {
+      "file": "documents.jsonl.gz",
+      "records": 86835,
+      "source_records": 86835,
+      "source_sha256": "0c8ac683114f2b0930d6e98e4a00d04d27c3fbd8362dc20300a910f8b08d0ece",
+      "public_gzip_sha256": "af4b719ae18ab9446f021ddb0defc8c976740402840462eef47f2abb99f4067e",
+      "public_gzip_bytes": 21577190,
+      "semantic_signature_sha256": "7830c9ff8e0e5b79b3efb3e1bc6dcac91bb71093d85ed22b257dcb384222583a",
+      "source_semantic_signature_sha256": "7830c9ff8e0e5b79b3efb3e1bc6dcac91bb71093d85ed22b257dcb384222583a",
+      "record_count_equal": true,
+      "ids_equal": true,
+      "semantic_signature_equal": true
+    },
+    "mentions": {
+      "file": "mentions.jsonl.gz",
+      "records": 52638,
+      "source_records": 52638,
+      "source_sha256": "0d15d07e83f9dc7b3862b9979eb643ab890e796b696e9ecf427a46b02bdcec0b",
+      "public_gzip_sha256": "8f28902787a7eac80517c4ed7941e88383efe7aa7ee2833784844c74e056ff26",
+      "public_gzip_bytes": 2170232,
+      "semantic_signature_sha256": "3d4aa875407ad00d920695cb98f23e54b5f510f5105d4e8aef4eebca4b1d89ed",
+      "source_semantic_signature_sha256": "3d4aa875407ad00d920695cb98f23e54b5f510f5105d4e8aef4eebca4b1d89ed",
+      "record_count_equal": true,
+      "ids_equal": true,
+      "semantic_signature_equal": true
+    },
+    "quadruples_event_csv": {
+      "file": "quadruples_event.csv.gz",
+      "records": 47407,
+      "public_gzip_bytes": 2560121,
+      "public_gzip_sha256": "82c302e31482ed95b771c0d7a24fc35d5710b4ca5e7f0adde0b920904e2ec0b5"
+    },
+    "quadruples_observation_csv": {
+      "file": "quadruples_observation.csv.gz",
+      "records": 49612,
+      "public_gzip_bytes": 1928596,
+      "public_gzip_sha256": "93b0f5079d502ad4564a07823ad8dd25199424749447f3d327a535e0fe37d7f4"
+    },
+    "supplementary_entities": {
+      "file": "supplementary_entities.jsonl.gz",
+      "records": 243,
+      "source_records_selected": 243,
+      "source_selection": "only nonformal endpoints in supplementary_relations; never promoted to entities",
+      "source_sha256": "55140b8d1976267226a7227597ed2a9aff3c70f68861651aedc05a45e0d8c8bf",
+      "public_gzip_sha256": "1012d7e1fa0e583f1d3d97e4098607fd38e7e7336a67228b0cf4cb9085702033",
+      "public_gzip_bytes": 37077,
+      "semantic_signature_sha256": "f9a7181ca55484b1c4fc2df04f99808721fb5c42e98d455420f32ec723e0cdfa",
+      "source_semantic_signature_sha256": "f9a7181ca55484b1c4fc2df04f99808721fb5c42e98d455420f32ec723e0cdfa",
+      "record_count_equal": true,
+      "ids_equal": true,
+      "semantic_signature_equal": true
+    }
+  },
+  "validation": {
+    "pass": true,
+    "errors": [],
+    "all_record_counts_equal": true,
+    "all_id_sequences_equal": true,
+    "all_semantic_signatures_equal": true
+  },
+  "auxiliary_files": {
+    "statistics.json": {
+      "sha256": "8175a14be84ada1d7090bc1117cc88f7f850a2ab28590a0553e847739de83fc4",
+      "bytes": 5747
+    },
+    "sanitization.json": {
+      "sha256": "94a681a1f4d9c06a3c66dfd34c51974139806f14a6a46350cd7fb6bdc470add5",
+      "bytes": 19245
+    }
+  }
+}

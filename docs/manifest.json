@@ -1,0 +1,39 @@
+{
+  "version": "4.2.0-public",
+  "dataset_version": "4.0.0",
+  "formal_nodes": 45230,
+  "distinct_temporal_facts": 47406,
+  "current_date": "2026-10-28",
+  "html_sha256": "74aac9e4664e850c39ee7c186b612cd266667b1c28c07b0635ef2dc0aa3c083a",
+  "html_bytes": 29054141,
+  "payload_sha256": "94f36b3e2809bb4b1b22644d593294f35d2ee3ff67639e2c121b52d88d8bec4e",
+  "payload_raw_bytes": 158743495,
+  "payload_gzip_bytes": 21710724,
+  "engine_sha256": "c83bfb42167bd209047c4856391b177e6780caad89f810c1a404b6870c98345b",
+  "graph_semantic_signatures": {
+    "nodes": "d537b1f75698c9cb5b9dd019132700c08e1db2a5d0192d536ae6a400f68fd0ac",
+    "edges": "b73574ee79f8b10460eac37bd1bbbf5c60e970dd6ba6f53e5a0690d5733f135d"
+  },
+  "counts_before": {
+    "nodes": 45473,
+    "edges": 51238,
+    "evidence": 125312,
+    "documents": 52092,
+    "figures": 5,
+    "taxonomy": 876,
+    "candidates": 4454
+  },
+  "counts_after": {
+    "nodes": 45473,
+    "edges": 51238,
+    "evidence": 125312,
+    "documents": 52092,
+    "figures": 0,
+    "taxonomy": 876,
+    "candidates": 0
+  },
+  "third_party_full_text_embedded": false,
+  "source_urls_hashes_coordinates_preserved": true,
+  "self_contained": true,
+  "runtime_external_dependencies": []
+}

@@ -1,0 +1,290 @@
+{
+  "entity_types": [
+    "Industry",
+    "Company",
+    "Product",
+    "Policy",
+    "Patent",
+    "Report",
+    "Person"
+  ],
+  "entity_type_names_zh": {
+    "Industry": "行业",
+    "Company": "企业",
+    "Product": "产品",
+    "Policy": "政策",
+    "Patent": "专利",
+    "Report": "报告",
+    "Person": "人物"
+  },
+  "entity_subtypes": {
+    "Industry": [
+      "上游行业",
+      "中游行业",
+      "下游行业"
+    ],
+    "Company": [
+      "制造商",
+      "供应商",
+      "分销商",
+      "服务商",
+      "投资机构",
+      "科研机构"
+    ],
+    "Product": [
+      "上游原料",
+      "中游产品",
+      "终端产品"
+    ],
+    "Policy": [
+      "国家政策",
+      "地方政策",
+      "财政政策",
+      "产业政策",
+      "贸易政策"
+    ],
+    "Patent": [
+      "发明专利",
+      "实用新型",
+      "外观设计"
+    ],
+    "Report": [
+      "财务报告",
+      "年度报告",
+      "行业报告",
+      "研究报告"
+    ],
+    "Person": [
+      "学者",
+      "企业家",
+      "政客",
+      "职员",
+      "投资人"
+    ]
+  },
+  "relation_types": [
+    "suppliesTo",
+    "hasCompany",
+    "manufacturesFor",
+    "distributesTo",
+    "providesServiceTo",
+    "investsIn",
+    "partnersWith",
+    "cooperation",
+    "competition",
+    "producesProduct",
+    "usesProduct",
+    "usedIn",
+    "supportsIndustry",
+    "regulatesCompany",
+    "affectsProduct",
+    "evaluatesIndustry",
+    "analyzesCompany",
+    "referencesPolicy",
+    "ownedBy",
+    "implementsInProduct",
+    "collaboratedBy",
+    "inventedBy",
+    "employedBy",
+    "foundedCompany",
+    "leadsCompany",
+    "influencesPolicy"
+  ],
+  "relation_names_zh": {
+    "suppliesTo": "向其供应",
+    "hasCompany": "包含企业",
+    "manufacturesFor": "为其制造或代工",
+    "distributesTo": "向其分销",
+    "providesServiceTo": "为其提供服务",
+    "investsIn": "投资",
+    "partnersWith": "与其建立合作伙伴关系",
+    "cooperation": "合作",
+    "competition": "竞争",
+    "producesProduct": "生产产品",
+    "usesProduct": "使用产品",
+    "usedIn": "用于另一产品",
+    "supportsIndustry": "支持行业",
+    "regulatesCompany": "监管企业",
+    "affectsProduct": "影响产品",
+    "evaluatesIndustry": "评估行业",
+    "analyzesCompany": "分析企业",
+    "referencesPolicy": "引用政策",
+    "ownedBy": "专利归属于企业",
+    "implementsInProduct": "专利应用于产品",
+    "collaboratedBy": "专利由该机构参与合作",
+    "inventedBy": "专利由该人物发明",
+    "employedBy": "人物受雇于企业",
+    "foundedCompany": "人物创办企业",
+    "leadsCompany": "人物领导企业",
+    "influencesPolicy": "人物影响政策"
+  },
+  "relationship_constraints": {
+    "suppliesTo": [
+      [
+        "Industry",
+        "Industry"
+      ],
+      [
+        "Company",
+        "Company"
+      ]
+    ],
+    "hasCompany": [
+      [
+        "Industry",
+        "Company"
+      ]
+    ],
+    "manufacturesFor": [
+      [
+        "Company",
+        "Company"
+      ]
+    ],
+    "distributesTo": [
+      [
+        "Company",
+        "Company"
+      ]
+    ],
+    "providesServiceTo": [
+      [
+        "Company",
+        "Company"
+      ]
+    ],
+    "investsIn": [
+      [
+        "Company",
+        "Company"
+      ],
+      [
+        "Person",
+        "Company"
+      ]
+    ],
+    "partnersWith": [
+      [
+        "Company",
+        "Company"
+      ]
+    ],
+    "cooperation": [
+      [
+        "Company",
+        "Company"
+      ]
+    ],
+    "competition": [
+      [
+        "Company",
+        "Company"
+      ]
+    ],
+    "producesProduct": [
+      [
+        "Company",
+        "Product"
+      ]
+    ],
+    "usesProduct": [
+      [
+        "Company",
+        "Product"
+      ]
+    ],
+    "usedIn": [
+      [
+        "Product",
+        "Product"
+      ]
+    ],
+    "supportsIndustry": [
+      [
+        "Policy",
+        "Industry"
+      ]
+    ],
+    "regulatesCompany": [
+      [
+        "Policy",
+        "Company"
+      ]
+    ],
+    "affectsProduct": [
+      [
+        "Policy",
+        "Product"
+      ]
+    ],
+    "evaluatesIndustry": [
+      [
+        "Report",
+        "Industry"
+      ]
+    ],
+    "analyzesCompany": [
+      [
+        "Report",
+        "Company"
+      ]
+    ],
+    "referencesPolicy": [
+      [
+        "Report",
+        "Policy"
+      ]
+    ],
+    "ownedBy": [
+      [
+        "Patent",
+        "Company"
+      ]
+    ],
+    "implementsInProduct": [
+      [
+        "Patent",
+        "Product"
+      ]
+    ],
+    "collaboratedBy": [
+      [
+        "Patent",
+        "Company"
+      ]
+    ],
+    "inventedBy": [
+      [
+        "Patent",
+        "Person"
+      ]
+    ],
+    "employedBy": [
+      [
+        "Person",
+        "Company"
+      ]
+    ],
+    "foundedCompany": [
+      [
+        "Person",
+        "Company"
+      ]
+    ],
+    "leadsCompany": [
+      [
+        "Person",
+        "Company"
+      ]
+    ],
+    "influencesPolicy": [
+      [
+        "Person",
+        "Policy"
+      ]
+    ]
+  },
+  "relation_count": 26,
+  "source_ontology_sha256": "5fa858429942ee62cc84187f63c6603ee89accfa848c24872de2f552bee5be4c",
+  "scope": "26 core relations; classification/product/supplement metadata remain separate"
+}

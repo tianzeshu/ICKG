@@ -1,0 +1,350 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/tianzeshu/ICKG/data/full/public-schema.json",
+  "title": "ChipChain KG public structured record schemas",
+  "version": "4.0.0-public-structured-1",
+  "description": "Validate a table row with the corresponding $defs entry. Extra metadata is text-scrubbed; this schema is intentionally compatible with preserved v4 metadata.",
+  "$defs": {
+    "evidenceRef": {
+      "type": "object",
+      "properties": {
+        "doc_id": {
+          "type": "string"
+        },
+        "start": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "end": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "paragraph_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "paragraph_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "page": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "quote_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "quote_length": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "quote_utf8_bytes": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": true,
+      "description": "Text-free pointer. start/end are half-open Unicode codepoint offsets in the hashed normalized source text, not bytes. quote_sha256 hashes original UTF-8 quote bytes."
+    },
+    "time": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "start": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "end": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "precision": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/evidenceRef"
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "entities": {
+      "type": "object",
+      "required": [
+        "entity_id",
+        "type",
+        "canonical_name"
+      ],
+      "properties": {
+        "entity_id": {
+          "type": "string"
+        },
+        "canonical_name": {
+          "type": "string"
+        },
+        "display_name_zh": {
+          "type": "string"
+        },
+        "type": {
+          "enum": [
+            "Industry",
+            "Company",
+            "Product",
+            "Policy",
+            "Patent",
+            "Report",
+            "Person"
+          ]
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/evidenceRef"
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "assertions": {
+      "type": "object",
+      "required": [
+        "assertion_id",
+        "subject_id",
+        "predicate",
+        "object_id",
+        "event_time"
+      ],
+      "properties": {
+        "assertion_id": {
+          "type": "string"
+        },
+        "subject_id": {
+          "type": "string"
+        },
+        "predicate": {
+          "type": "string"
+        },
+        "object_id": {
+          "type": "string"
+        },
+        "event_time": {
+          "$ref": "#/$defs/time"
+        },
+        "observed_time": {
+          "$ref": "#/$defs/time"
+        }
+      },
+      "additionalProperties": true
+    },
+    "temporal_facts": {
+      "type": "object",
+      "required": [
+        "fact_id",
+        "subject_id",
+        "predicate",
+        "object_id",
+        "event_time",
+        "assertion_ids"
+      ],
+      "properties": {},
+      "additionalProperties": true
+    },
+    "quadruples_event": {
+      "type": "object",
+      "required": [
+        "subject",
+        "predicate",
+        "object",
+        "timestamp",
+        "time_precision",
+        "fact_id"
+      ],
+      "properties": {},
+      "additionalProperties": true
+    },
+    "quadruples_observation": {
+      "type": "object",
+      "required": [
+        "subject",
+        "predicate",
+        "object",
+        "timestamp",
+        "time_precision",
+        "assertion_id"
+      ],
+      "properties": {},
+      "additionalProperties": true
+    },
+    "unknown_event_time": {
+      "type": "object",
+      "required": [
+        "subject",
+        "predicate",
+        "object",
+        "timestamp",
+        "time_precision",
+        "fact_id"
+      ],
+      "properties": {},
+      "additionalProperties": true
+    },
+    "classification_structure": {
+      "type": "object",
+      "required": [
+        "structure_id",
+        "child_id",
+        "parent_id",
+        "kind"
+      ],
+      "properties": {},
+      "additionalProperties": true
+    },
+    "industry_taxonomy": {
+      "type": "object",
+      "required": [
+        "entity_id",
+        "industry_label"
+      ],
+      "properties": {},
+      "additionalProperties": true
+    },
+    "product_portfolio": {
+      "type": "object",
+      "required": [
+        "structure_id",
+        "subject_id",
+        "predicate",
+        "object_id"
+      ],
+      "properties": {},
+      "additionalProperties": true
+    },
+    "supplementary_relations": {
+      "type": "object",
+      "required": [
+        "supplement_id",
+        "subject_id",
+        "predicate",
+        "object_id"
+      ],
+      "properties": {},
+      "additionalProperties": true
+    },
+    "supplementary_entities": {
+      "type": "object",
+      "required": [
+        "entity_id",
+        "type",
+        "canonical_name",
+        "formal_graph_member"
+      ],
+      "properties": {},
+      "additionalProperties": true
+    },
+    "identity_alignment": {
+      "type": "object",
+      "required": [
+        "source_entity_id",
+        "target_entity_id"
+      ],
+      "properties": {},
+      "additionalProperties": true
+    },
+    "documents": {
+      "type": "object",
+      "required": [
+        "doc_id",
+        "sha256",
+        "text_sha256",
+        "text_length",
+        "url"
+      ],
+      "properties": {
+        "doc_id": {
+          "type": "string"
+        },
+        "sha256": {
+          "type": "string"
+        },
+        "text_sha256": {
+          "type": "string"
+        },
+        "text_length": {
+          "type": "integer"
+        },
+        "url": {
+          "type": "string"
+        },
+        "paragraph_count": {
+          "type": "integer"
+        },
+        "source_archive": {
+          "description": "ZIP SHA/member, uncompressed byte start/end, logical row and original row SHA. No archive bytes included."
+        }
+      },
+      "additionalProperties": true
+    },
+    "mentions": {
+      "type": "object",
+      "required": [
+        "mention_id",
+        "entity_id",
+        "doc_id",
+        "start",
+        "end"
+      ],
+      "properties": {},
+      "additionalProperties": true
+    }
+  },
+  "table_schema_refs": {
+    "entities": "#/$defs/entities",
+    "assertions": "#/$defs/assertions",
+    "temporal_facts": "#/$defs/temporal_facts",
+    "quadruples_event": "#/$defs/quadruples_event",
+    "quadruples_observation": "#/$defs/quadruples_observation",
+    "unknown_event_time": "#/$defs/unknown_event_time",
+    "classification_structure": "#/$defs/classification_structure",
+    "industry_taxonomy": "#/$defs/industry_taxonomy",
+    "product_portfolio": "#/$defs/product_portfolio",
+    "supplementary_relations": "#/$defs/supplementary_relations",
+    "supplementary_entities": "#/$defs/supplementary_entities",
+    "identity_alignment": "#/$defs/identity_alignment",
+    "documents": "#/$defs/documents",
+    "mentions": "#/$defs/mentions"
+  },
+  "withheld_fields": {
+    "description": "_withheld_fields values contain only SHA256, utf8_bytes and optional codepoints of removed material. They never contain the material."
+  }
+}
