@@ -1,11 +1,11 @@
 {
-  "version": "4.2.0-public",
+  "version": "4.3.0-ui",
   "dataset_version": "4.0.0",
   "formal_nodes": 45230,
   "distinct_temporal_facts": 47406,
   "current_date": "2026-10-28",
-  "html_sha256": "74aac9e4664e850c39ee7c186b612cd266667b1c28c07b0635ef2dc0aa3c083a",
-  "html_bytes": 29054141,
+  "html_sha256": "2aef554d2e1ff27934c571fde59686055c19e68148c7278419e0f2b800084d7a",
+  "html_bytes": 18662,
   "payload_sha256": "94f36b3e2809bb4b1b22644d593294f35d2ee3ff67639e2c121b52d88d8bec4e",
   "payload_raw_bytes": 158743495,
   "payload_gzip_bytes": 21710724,
@@ -34,6 +34,23 @@
   },
   "third_party_full_text_embedded": false,
   "source_urls_hashes_coordinates_preserved": true,
-  "self_contained": true,
-  "runtime_external_dependencies": []
+  "self_contained": false,
+  "runtime_external_dependencies": [],
+  "graph_source": {
+    "path": "graph-source.html",
+    "blob_sha": "c8e02ee6dce120bb6bd20252b0e6c09640317ed5",
+    "html_sha256": "74aac9e4664e850c39ee7c186b612cd266667b1c28c07b0635ef2dc0aa3c083a",
+    "html_bytes": 29054141,
+    "payload_unchanged": true
+  },
+  "ui_assets": {
+    "base.css": "8ea2463be0d78148174ad752a4f07a1e9a79287842bf9f5657099aa57c0122cd",
+    "theme.css": "46ac6a3805f626333387e2cf65083e477b816e65594f112365e9ce597dbbbe17",
+    "polish.css": "c963e83055a331b63aa349837315a1d45659d232d39bd6e8314a9f7a66056de0",
+    "core.js": "c83bfb42167bd209047c4856391b177e6780caad89f810c1a404b6870c98345b",
+    "app.js": "577097417936bf02f0d237bb7560d1d0c91ce94eb7ca0e7e5109c5ad68137f62",
+    "ui.js": "09f97f85be43342324b2be80d29a2b8e23c392977c69e8997641cda952eceab3",
+    "bootstrap.js": "ebda1ffc918fc9efa2f6d22f98c7a99d240347fa4cd331e8930ed320c96b0efa",
+    "favicon.svg": "6409e14f2ec3f91366d957a682f032d358bd017028b77da606c68f33c5fe1765"
+  }
 }
