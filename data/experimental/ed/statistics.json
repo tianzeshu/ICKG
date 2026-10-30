@@ -1,0 +1,138 @@
+{
+  "task": "cross_document_entity_clustering",
+  "annotation_status": "AI-assisted reference labels (silver); human_verified=false",
+  "seed": 42,
+  "split_unit": "frozen source/identified-near-duplicate document groups",
+  "splits": {
+    "train": {
+      "documents": 1250,
+      "mentions": 9819,
+      "reference_entity_clusters": 4981,
+      "entity_type_counts": {
+        "Product": 2935,
+        "Company": 5659,
+        "Person": 812,
+        "Industry": 181,
+        "Policy": 44,
+        "Report": 121,
+        "Patent": 67
+      },
+      "input_file": {
+        "file": "train.jsonl.gz",
+        "records": 1250,
+        "uncompressed_sha256": "c0bdca7b6323b3dbe295ae88ef16e589cd47c147e551933bec5292d67bd16783",
+        "sha256": "53347e0da78a8b4653460cf41914f2f7351e161d016e91af5c81a2102cbd20d9",
+        "bytes": 5615556
+      },
+      "target_file": {
+        "file": "train.jsonl.gz",
+        "records": 9819,
+        "uncompressed_sha256": "671c3a72d57f5ac05dae618b83f701f73132d4d8c129289fd33ec4201b9221c4",
+        "sha256": "c05e0c316cbccb08d48168495d2d5842f61a9cf870b6703e001437f7bdf25dcd",
+        "bytes": 131160
+      }
+    },
+    "dev": {
+      "documents": 357,
+      "mentions": 2802,
+      "reference_entity_clusters": 1741,
+      "entity_type_counts": {
+        "Company": 1611,
+        "Product": 840,
+        "Industry": 52,
+        "Person": 233,
+        "Report": 35,
+        "Policy": 12,
+        "Patent": 19
+      },
+      "input_file": {
+        "file": "dev.jsonl.gz",
+        "records": 357,
+        "uncompressed_sha256": "e2925a0b1b4e2272bdb208dd0cf48380e54d39c2b17be7e1b50138ca5fdcb768",
+        "sha256": "7ff5832590460ab912baf36d38f0096d967af15a57a195e8f6f3a51f46021981",
+        "bytes": 1621171
+      },
+      "target_file": {
+        "file": "dev.jsonl.gz",
+        "records": 2802,
+        "uncompressed_sha256": "cab2b523f4246665915d05df83c7cd6f4d98689215406dce7bc88a0fd66feab9",
+        "sha256": "518508edf150883f4241b2ec2c23097f516f8bc46c587f04db57270585445ae7",
+        "bytes": 39955
+      }
+    },
+    "test": {
+      "documents": 178,
+      "mentions": 1410,
+      "reference_entity_clusters": 716,
+      "entity_type_counts": {
+        "Company": 812,
+        "Product": 423,
+        "Industry": 26,
+        "Person": 116,
+        "Policy": 6,
+        "Report": 17,
+        "Patent": 10
+      },
+      "input_file": {
+        "file": "test.jsonl.gz",
+        "records": 178,
+        "uncompressed_sha256": "620e9b8523f63bb1d05ec39138cae9042d85ff7e8f27c015f457f94d8ae4ffa9",
+        "sha256": "5623457cc28342d9fbbcce2f15d92530204663c9cb8425fc750d81a20fdd7e0f",
+        "bytes": 600466
+      },
+      "target_file": {
+        "file": "test.jsonl.gz",
+        "records": 1410,
+        "uncompressed_sha256": "4323e3b087336d41d62ab59b25e5be7ffb575c9d688574104c2dcbf452cc2b31",
+        "sha256": "715f9bc79945ce93735020b3f0f20690b6b0bf4e81d92a0a97575fe427a05b3f",
+        "bytes": 18395
+      }
+    }
+  },
+  "total": {
+    "documents": 1785,
+    "mentions": 14031,
+    "global_reference_entity_clusters": 6424
+  },
+  "reference_catalog_file": {
+    "file": "entity_catalog.jsonl.gz",
+    "records": 6424,
+    "uncompressed_sha256": "d544f4ed2a80beeb017c57b5b06c0c0f8b95b51657265e414c831057017fc48e",
+    "sha256": "d37371583728ae78ad4afd55a0199d5e92d62ab4a8ce1b2ddafc15dec28f0b61",
+    "bytes": 330055
+  },
+  "cross_split_reference_identity_overlap": {
+    "train_dev": 672,
+    "train_test": 322,
+    "dev_test": 206
+  },
+  "checks": {
+    "input_reference_identity_fields_absent": true,
+    "all_input_spans_match_text": true,
+    "all_local_relation_endpoints_valid": true,
+    "input_target_mentions_match": true,
+    "all_targets_covered_by_reference_catalog": true,
+    "cross_split_document_id_overlap": {
+      "train_dev": 0,
+      "train_test": 0,
+      "dev_test": 0
+    },
+    "cross_split_mention_id_overlap": {
+      "train_dev": 0,
+      "train_test": 0,
+      "dev_test": 0
+    },
+    "cross_split_source_url_overlap": {
+      "train_dev": 0,
+      "train_test": 0,
+      "dev_test": 0
+    },
+    "cross_split_source_group_overlap": {
+      "train_dev": 0,
+      "train_test": 0,
+      "dev_test": 0
+    }
+  },
+  "model_experiments_performed_for_this_release": false,
+  "correspondence_to_published_model_scores_confirmed": false
+}

@@ -1,0 +1,187 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ICKG-ED input, target and audit reference records",
+  "$defs": {
+    "input_document": {
+      "type": "object",
+      "required": [
+        "document_id",
+        "text",
+        "mentions",
+        "relations",
+        "sources"
+      ],
+      "properties": {
+        "document_id": {
+          "type": "string"
+        },
+        "text": {
+          "type": "string"
+        },
+        "mentions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "mention_id",
+              "start",
+              "end",
+              "mention",
+              "type"
+            ],
+            "properties": {
+              "mention_id": {
+                "type": "string"
+              },
+              "start": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "end": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "mention": {
+                "type": "string",
+                "minLength": 1
+              },
+              "type": {
+                "enum": [
+                  "Industry",
+                  "Company",
+                  "Product",
+                  "Policy",
+                  "Patent",
+                  "Report",
+                  "Person"
+                ]
+              }
+            },
+            "not": {
+              "anyOf": [
+                {
+                  "required": [
+                    "entity_id"
+                  ]
+                },
+                {
+                  "required": [
+                    "canonical_name"
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "relations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "head_mention_id",
+              "tail_mention_id",
+              "type"
+            ]
+          }
+        },
+        "sources": {
+          "type": "array"
+        }
+      },
+      "not": {
+        "anyOf": [
+          {
+            "required": [
+              "entity_id"
+            ]
+          },
+          {
+            "required": [
+              "canonical_name"
+            ]
+          }
+        ]
+      }
+    },
+    "identity_target": {
+      "type": "object",
+      "required": [
+        "mention_id",
+        "document_id",
+        "entity_id",
+        "type"
+      ],
+      "properties": {
+        "mention_id": {
+          "type": "string"
+        },
+        "document_id": {
+          "type": "string"
+        },
+        "entity_id": {
+          "type": "string"
+        },
+        "type": {
+          "enum": [
+            "Industry",
+            "Company",
+            "Product",
+            "Policy",
+            "Patent",
+            "Report",
+            "Person"
+          ]
+        }
+      }
+    },
+    "reference_entity": {
+      "type": "object",
+      "required": [
+        "entity_id",
+        "canonical_name",
+        "type",
+        "mention_ids",
+        "human_verified"
+      ],
+      "properties": {
+        "entity_id": {
+          "type": "string"
+        },
+        "canonical_name": {
+          "type": "string"
+        },
+        "type": {
+          "enum": [
+            "Industry",
+            "Company",
+            "Product",
+            "Policy",
+            "Patent",
+            "Report",
+            "Person"
+          ]
+        },
+        "mention_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "human_verified": {
+          "const": false
+        }
+      }
+    }
+  },
+  "oneOf": [
+    {
+      "$ref": "#/$defs/input_document"
+    },
+    {
+      "$ref": "#/$defs/identity_target"
+    },
+    {
+      "$ref": "#/$defs/reference_entity"
+    }
+  ]
+}

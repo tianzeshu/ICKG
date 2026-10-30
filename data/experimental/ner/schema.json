@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ICKG-NER document",
+  "type": "object",
+  "required": [
+    "id",
+    "text",
+    "entities",
+    "annotation_metadata"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "entities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "eid",
+          "start",
+          "end",
+          "mention",
+          "type",
+          "human_verified"
+        ],
+        "properties": {
+          "eid": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "start": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "end": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "mention": {
+            "type": "string",
+            "minLength": 1
+          },
+          "type": {
+            "enum": [
+              "Industry",
+              "Company",
+              "Product",
+              "Policy",
+              "Patent",
+              "Report",
+              "Person"
+            ]
+          },
+          "annotation_method": {
+            "type": "string"
+          },
+          "human_verified": {
+            "const": false
+          }
+        }
+      }
+    },
+    "relations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "head",
+          "tail",
+          "type"
+        ],
+        "properties": {
+          "head": {
+            "type": "integer"
+          },
+          "tail": {
+            "type": "integer"
+          },
+          "type": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "annotation_metadata": {
+      "type": "object",
+      "required": [
+        "human_verified"
+      ],
+      "properties": {
+        "human_verified": {
+          "const": false
+        }
+      }
+    }
+  },
+  "additionalProperties": true
+}

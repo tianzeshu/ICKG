@@ -1,3 +1,7 @@
+<!-- Task resources were added without removing the original usage terms below. -->
+
+本仓库同时提供[任务数据](data/experimental/README.md)、[全量展示图谱](data/full/README.md)与[外部型号资源](resources/global_semiconductor_entities/README.md)。各资源独立给出计数和标注状态；NER跨度、ED身份及产品型号目录分别统计。原有数据说明与来源条件继续适用。
+
 # 数据使用说明 / Data Use
 
 ## 版本与引用

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ICKG-RE relation instance",
+  "type": "object",
+  "required": [
+    "head",
+    "head_type",
+    "relation",
+    "tail",
+    "tail_type",
+    "sentence"
+  ],
+  "properties": {
+    "head": {
+      "type": "string",
+      "minLength": 1
+    },
+    "head_type": {
+      "type": "string",
+      "minLength": 1
+    },
+    "relation": {
+      "type": "string",
+      "minLength": 1
+    },
+    "tail": {
+      "type": "string",
+      "minLength": 1
+    },
+    "tail_type": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sentence": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": true
+}

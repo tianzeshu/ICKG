@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Independent semiconductor catalog compatible with ICKG entity_catalog core fields",
+  "type": "object",
+  "required": [
+    "entity_id",
+    "canonical_name",
+    "type",
+    "surface_forms",
+    "mention_ids",
+    "document_ids",
+    "annotation_methods",
+    "splits",
+    "human_verified",
+    "manufacturer",
+    "sources"
+  ],
+  "properties": {
+    "entity_id": {
+      "type": "string",
+      "pattern": "^GSIC_[0-9a-f]{20}$"
+    },
+    "canonical_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "type": {
+      "const": "Product"
+    },
+    "surface_forms": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "mention_ids": {
+      "type": "array",
+      "maxItems": 0
+    },
+    "document_ids": {
+      "type": "array",
+      "maxItems": 0
+    },
+    "splits": {
+      "type": "array",
+      "maxItems": 0
+    },
+    "annotation_methods": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "integer",
+        "minimum": 1
+      }
+    },
+    "human_verified": {
+      "const": false
+    },
+    "manufacturer": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "source_id",
+          "source_url",
+          "manufacturer_as_published",
+          "name_as_published",
+          "verification_level"
+        ]
+      }
+    }
+  }
+}

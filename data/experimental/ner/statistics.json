@@ -1,0 +1,133 @@
+{
+  "task": "named_entity_recognition",
+  "annotation_status": "automatic_and_AI_assisted; human_verified=false",
+  "span_unit": "Unicode codepoints; zero-based half-open [start,end)",
+  "seed": 42,
+  "split_ratio": "7:2:1",
+  "split_unit": "frozen source/repeated-slice document groups",
+  "splits": {
+    "train": {
+      "documents": 4221,
+      "entity_spans": 72742,
+      "types": {
+        "Product": 27042,
+        "Company": 31109,
+        "Industry": 11386,
+        "Person": 2000,
+        "Policy": 295,
+        "Report": 596,
+        "Patent": 314
+      },
+      "retained_auxiliary_relations": 1904,
+      "average_unicode_characters": 492.73181710495146,
+      "data_file": {
+        "file": "train.jsonl.gz",
+        "records": 4221,
+        "uncompressed_sha256": "ced9ebb2a53aa2d2672f9c51c1358db16d25a6729bed41244c68b358acb4ccf4",
+        "sha256": "61ef202ad258fe7d4343953571b2a54d6587c6d21aa8eb177cc6b6bbaa46f734",
+        "bytes": 3225499
+      }
+    },
+    "dev": {
+      "documents": 1206,
+      "entity_spans": 20642,
+      "types": {
+        "Report": 146,
+        "Company": 8435,
+        "Industry": 3466,
+        "Product": 7950,
+        "Person": 492,
+        "Policy": 49,
+        "Patent": 104
+      },
+      "retained_auxiliary_relations": 596,
+      "average_unicode_characters": 487.1782752902156,
+      "data_file": {
+        "file": "dev.jsonl.gz",
+        "records": 1206,
+        "uncompressed_sha256": "6e32381a123a9ad5b5607083450219b9c35ddbc3657b9f1c68f6671a7534b614",
+        "sha256": "c611044828c2b958bfa75766ae2d44a71c03d25528098b855de91b5439ed9156",
+        "bytes": 857228
+      }
+    },
+    "test": {
+      "documents": 603,
+      "entity_spans": 10588,
+      "types": {
+        "Company": 4365,
+        "Product": 4164,
+        "Report": 75,
+        "Person": 207,
+        "Industry": 1694,
+        "Policy": 28,
+        "Patent": 55
+      },
+      "retained_auxiliary_relations": 341,
+      "average_unicode_characters": 487.56053067993366,
+      "data_file": {
+        "file": "test.jsonl.gz",
+        "records": 603,
+        "uncompressed_sha256": "4cf91916c3508d175d646caa6a240e9b8e162b5c22260bf4e01662c4c9e50134",
+        "sha256": "01880dfb2e1c33a683535064f0b14316e2031dc299fdb3456aa9bd407b262d34",
+        "bytes": 428446
+      }
+    }
+  },
+  "total": {
+    "documents": 6030,
+    "entity_spans": 103972,
+    "entity_types": {
+      "Product": 39156,
+      "Company": 43909,
+      "Industry": 16546,
+      "Person": 2699,
+      "Policy": 372,
+      "Report": 817,
+      "Patent": 473
+    },
+    "retained_auxiliary_relations": 2841
+  },
+  "annotation_methods": {
+    "original_annotation_position_checked": 13845,
+    "AI_assisted_short_name_context_review": 890,
+    "mined_organization_boundary_review_exact_source": 876,
+    "existing_company_vocabulary_exact_source_checked": 32647,
+    "AI_assisted_curated_industry_or_application_domain": 11720,
+    "corpus_annotated_name_all_occurrences": 17559,
+    "AI_assisted_context_review": 610,
+    "AI_assisted_reviewed_existing_specific_product_term": 9919,
+    "AI_assisted_curated_specific_technical_term": 11473,
+    "context_reviewed_type_correction": 248,
+    "AI_assisted_reviewed_named_chip_family": 227,
+    "AI_assisted_reviewed_model_with_source_evidence": 1173,
+    "AI_assisted_curated_named_product_or_technical_class": 1024,
+    "AI_assisted_reviewed_industry_domain": 459,
+    "AI_assisted_reviewed_full_model_name": 181,
+    "external_official_name_match_AI_assisted_context_review": 242,
+    "explicit_quoted_document_title": 57,
+    "explicit_patent_publication_identifier": 241,
+    "AI_assisted_reviewed_explicit_product_context": 55,
+    "AI_assisted_curated_specific_equipment_or_process_class": 507,
+    "AI_assisted_reviewed_plain_technology_not_patent_title": 15,
+    "explicit_named_patent_context": 3,
+    "AI_assisted_full_organization_boundary_review": 1
+  },
+  "checks": {
+    "all_span_text_matches": true,
+    "valid_relation_endpoints": true,
+    "unchanged_ids_texts_and_split_membership": true,
+    "exact_text_cross_split_overlap": {
+      "train_dev": 0,
+      "train_test": 0,
+      "dev_test": 0
+    },
+    "source_group_cross_split_overlap": {
+      "train_dev": 0,
+      "train_test": 0,
+      "dev_test": 0
+    }
+  },
+  "source_sha256": "dba057ea817241bf8b76f6f01c616e1332bba73fc78bfbbfd6b1fad110ac9c63",
+  "model_experiments_performed_for_this_release": false,
+  "correspondence_to_published_model_scores_confirmed": false
+}

@@ -1,0 +1,3218 @@
+{
+  "manufacturer_count": 770,
+  "entities_by_manufacturer": {
+    "Texas Instruments": 31244,
+    "Renesas": 20119,
+    "Analog Devices": 19583,
+    "Infineon": 15022,
+    "STMicroelectronics": 8854,
+    "onsemi": 8121,
+    "Microchip Technology": 7089,
+    "VBsemi Elec": 6646,
+    "Diodes Incorporated": 5872,
+    "Nexperia": 4620,
+    "Vishay Intertechnology": 3661,
+    "TECH PUBLIC": 3211,
+    "HXY MOSFET": 2715,
+    "Yangzhou Yangjie Elec Tech": 2246,
+    "ROHM Semiconductor": 1931,
+    "Shandong Jingdao Microelectronics": 1919,
+    "Maxim Integrated": 1624,
+    "MSKSEMI": 1500,
+    "Jiangsu Changjing Electronics Technology Co., Ltd.": 1436,
+    "Brightking": 1376,
+    "PANJIT International": 1272,
+    "Slkor(SLKORMICRO Elec.)": 1263,
+    "LGE": 1253,
+    "NXP Semiconductors": 1227,
+    "hongjiacheng": 1222,
+    "HGSEMI": 1196,
+    "BORN": 1158,
+    "JSMSEMI": 1129,
+    "LRC": 1122,
+    "Goodwork": 1071,
+    "YFW": 1048,
+    "Shikues": 1040,
+    "Everlight Elec": 1030,
+    "MDD Microdiode Semiconductor": 987,
+    "Littelfuse": 932,
+    "DOWO": 890,
+    "MCC Micro Commercial Components": 876,
+    "ST Semtech": 829,
+    "TWGMC": 702,
+    "ElecSuper": 683,
+    "Wild Goose": 653,
+    "Foshan Blue Rocket Elec": 617,
+    "FUXINSEMI": 601,
+    "Monolithic Power Systems": 570,
+    "XINGLIGHT": 565,
+    "UTC(Unisonic Tech)": 561,
+    "UMW(Youtai Semiconductor Co., Ltd.)": 558,
+    "Liown": 557,
+    "Leiditech": 482,
+    "Toshiba": 481,
+    "JUXING": 479,
+    "YONGYUTAI": 441,
+    "RUILON(Shenzhen Ruilongyuan Elec)": 436,
+    "Jiangsu RUNIC Tech": 433,
+    "HUASHUO": 425,
+    "MICRONE(Nanjing Micro One Elec)": 417,
+    "AnBon": 405,
+    "TOGIALED": 401,
+    "Lite-On": 400,
+    "CBI": 398,
+    "Broadcom": 388,
+    "Winsok Semicon": 383,
+    "KUU": 382,
+    "SMC Sangdest Microelectronicstronic Nanjing": 376,
+    "XINLUDA": 354,
+    "AGM-Semi": 353,
+    "NH": 348,
+    "Wuxi NCE Power Semiconductor": 346,
+    "Siliup": 337,
+    "WILLSEMI Will Semicon": 332,
+    "HANSCHIP semiconductor": 328,
+    "Torex Semicon": 314,
+    "SUNMATE Elec": 297,
+    "POWER INTEGRATIONS": 296,
+    "Shanghai Mingda Microelectronics": 289,
+    "Alpha & Omega Semicon": 279,
+    "Guangdong Hottech": 279,
+    "BL(Shanghai Belling)": 278,
+    "Richtek Tech": 276,
+    "OSEN": 273,
+    "Shanghai Siproin Microelectronics": 270,
+    "FOSAN": 269,
+    "GOFORD": 266,
+    "Kingbright": 262,
+    "PJSEMI": 261,
+    "Amicc": 259,
+    "MEIHUA": 259,
+    "Chipanalog": 254,
+    "STC Micro": 253,
+    "GR": 242,
+    "JNJ OPTOELECTRONICS": 242,
+    "MOT": 236,
+    "Wuxi I-core Elec": 236,
+    "GigaDevice Semicon Beijing": 233,
+    "LangJie": 232,
+    "Silergy": 226,
+    "Shanghai Prisemi Elec": 225,
+    "HTCSEMI": 224,
+    "PAKER": 223,
+    "Holtek Semicon": 221,
+    "LOWPOWER": 219,
+    "Shenzhen JingYang": 215,
+    "TDSEMIC": 213,
+    "COSINE": 209,
+    "WPMtek(Wei Pan Microelectronics)": 208,
+    "Taisko": 207,
+    "HTC Korea TAEJIN Tech": 205,
+    "KEC Semicon": 203,
+    "AOTE": 201,
+    "Skyworks Solutions": 201,
+    "ZHIDE": 201,
+    "ISSI(Integrated Silicon Solution)": 195,
+    "Tritech MOS": 195,
+    "XUMAO": 194,
+    "XILINX": 192,
+    "amsem": 189,
+    "Allegro MicroSystems LLC": 181,
+    "Minos": 180,
+    "High Diode": 179,
+    "KEXIN": 179,
+    "Changjiang Electronics Tech (CJ)": 178,
+    "baocheng(Shandong Baocheng Elec)": 177,
+    "WeEn Semiconductors": 176,
+    "DIYI Elec Tech": 170,
+    "SINO-IC": 169,
+    "HUAYI": 168,
+    "TUOZHAN": 162,
+    "WCH(Jiangsu Qin Heng)": 161,
+    "Intel/Altera": 160,
+    "SPTECH": 160,
+    "MaxLinear": 158,
+    "AnaSem": 156,
+    "Suzhou Good-Ark Elec": 155,
+    "ALLPOWER(ShenZhen Quan Li Semiconductor)": 153,
+    "Tak Cheong": 153,
+    "Foshan NationStar Optoelectronics": 152,
+    "HL": 152,
+    "SGMICRO": 152,
+    "Bourns": 149,
+    "Broadcom Limited": 148,
+    "TONYU": 146,
+    "3PEAK": 144,
+    "HONGLITRONIC(Hongli Zhihui (HONGLITRONIC))": 142,
+    "XLSEMI": 139,
+    "SEMTECH": 138,
+    "HX(hengjiaxing)": 137,
+    "Littelfuse IXYS": 137,
+    "BROADCHIP": 135,
+    "DOINGTER": 132,
+    "SKYWORKS SILICON LABS": 131,
+    "FTR": 129,
+    "Hangzhou Silan Microelectronics": 127,
+    "Shenzhen Fuman Elec": 126,
+    "KIA Semicon Tech": 125,
+    "Tokmas": 125,
+    "Comchip": 123,
+    "Jiangsu JieJie Microelectronics": 123,
+    "XNRUSEMI": 123,
+    "NATLINEAR": 122,
+    "Gainsil": 121,
+    "Corebai Microelectronics": 119,
+    "AWINIC(Shanghai Awinic Tech)": 117,
+    "SPS": 116,
+    "SEMIWARE": 115,
+    "EG Micro": 114,
+    "Cypress Semicon": 113,
+    "Shenzhen Jinkaisheng Elec": 113,
+    "TMI": 113,
+    "ZHHXDZ": 112,
+    "EKINGLUX": 107,
+    "Lattice": 107,
+    "Nuvoton Tech": 107,
+    "SOC(Shenzhen SinOne Microelectronics)": 107,
+    "Mini-Circuits": 106,
+    "MXIC(Macronix)": 105,
+    "TKS": 104,
+    "TM(Shenzhen Titan Micro Elec)": 102,
+    "Tudi": 101,
+    "Cmos": 100,
+    "CONNTEK": 100,
+    "ALJ": 99,
+    "etasolution": 97,
+    "Changzhou Starsea Elec": 96,
+    "DSTECH": 96,
+    "FMD Fremont Micro Devices": 96,
+    "PARALIGHT": 96,
+    "OB(On-Bright Elec)": 95,
+    "PUOLOP": 93,
+    "DIOO": 92,
+    "SILICON LABS": 92,
+    "WEIDA": 92,
+    "LR": 90,
+    "SIT": 90,
+    "Lewa Micro": 89,
+    "Agertech": 88,
+    "CRMICRO": 88,
+    "Hangzhou Ruimeng Tech": 88,
+    "ShangHai Consonance Elec": 86,
+    "MIRACLE POWER": 85,
+    "Suntek": 85,
+    "PUYA)": 84,
+    "Winbond Elec": 83,
+    "Chau Light": 82,
+    "LINKOSEMI": 82,
+    "MATSUKI": 82,
+    "Union Semiconductor": 82,
+    "Zetta": 82,
+    "Magn Tek": 81,
+    "Sharp Microelectronics": 80,
+    "XHSC": 80,
+    "FMS Formosa Microsemi": 79,
+    "IXYS": 78,
+    "Worldsemi": 78,
+    "Truesemi": 77,
+    "XTX": 77,
+    "Yint": 77,
+    "EIC Semicon": 76,
+    "SHOUDING": 76,
+    "Linearin": 74,
+    "NOVOSENSE": 74,
+    "HUAKE": 73,
+    "IDCHIP": 73,
+    "KTP": 72,
+    "REASUNOS": 72,
+    "Bestirpower": 71,
+    "KY": 71,
+    "XIN FEI HONG": 71,
+    "Techcode Semicon": 70,
+    "Qorvo": 69,
+    "Realtek Semicon": 69,
+    "NEWOPTO": 68,
+    "XZT": 67,
+    "CREATEK": 66,
+    "Hallwee": 66,
+    "HEERMICR": 66,
+    "Infineon Cypress Semicon": 65,
+    "Nations Technologies Inc": 65,
+    "Guestgood": 63,
+    "INJOINIC": 63,
+    "Megain": 63,
+    "Shenzhen DongKe Semicon": 63,
+    "TCWIN": 63,
+    "Jilin Sino-Microelectronics": 61,
+    "analogysemi": 60,
+    "WUXI UNIGROUP MICRO": 60,
+    "(DIOTEC)": 58,
+    "GONGMOSEMI": 58,
+    "RYCHIP Semiconductor Inc.": 58,
+    "FUDAN MICRO": 57,
+    "GN Semic": 57,
+    "Seaward Elec": 57,
+    "Wayon": 57,
+    "Cross chip": 56,
+    "Orient": 56,
+    "SEP": 56,
+    "XDS": 56,
+    "HT Shenzhen Jinyu Semicon": 55,
+    "GUOXIN JIAPIN SEMICONDUCTOR": 54,
+    "SCT": 54,
+    "Wolfspeed": 54,
+    "WXNSIC": 54,
+    "XySemi": 54,
+    "APEC(Advanced Power Elec)": 53,
+    "HK": 53,
+    "Samwin": 53,
+    "ZJW": 53,
+    "Fortior Tech": 52,
+    "Isocom Components": 51,
+    "Samsung": 51,
+    "STANSON Tech.": 51,
+    "OPSCO Optoelectronics": 50,
+    "Ascend": 49,
+    "Sillumin": 49,
+    "Wuxi Chipown Micro-electronics": 49,
+    "IKSEMICON": 48,
+    "Cirrus Logic": 47,
+    "NDP": 47,
+    "PTTC Polytronics Tech": 47,
+    "Cosmo Electronics": 46,
+    "Nordic Semicon": 46,
+    "ShunYe": 45,
+    "BrtLed(Bright LED Elec)": 44,
+    "Honeywell": 44,
+    "PTC(Princeton Tech)": 44,
+    "ANHI": 43,
+    "FTDI": 43,
+    "TFSS": 43,
+    "KIWI": 42,
+    "MASPOWER": 42,
+    "SUPSiC": 42,
+    "Applied Power": 41,
+    "Geehy": 41,
+    "JieLi Tech": 41,
+    "LONTEN": 41,
+    "SEMBO": 41,
+    "Yongyu Photoelectric": 41,
+    "ChipLink Tech": 40,
+    "Legend-Si": 40,
+    "ProTek Devices": 40,
+    "ChipNobo": 39,
+    "Existar": 39,
+    "miracle": 39,
+    "MK": 39,
+    "AMD/XILINX": 38,
+    "ARTERY": 38,
+    "Grenergy": 38,
+    "QX Micro Devices": 38,
+    "Bencent": 37,
+    "CHIPSEA": 37,
+    "GATEMODE": 37,
+    "POPPULA": 37,
+    "SX globalchip": 36,
+    "Wuxi Maxinmicro": 36,
+    "AIC Analog Integrations": 35,
+    "Si Change": 35,
+    "TRINAMIC Motion Control GmbH": 35,
+    "Gcore": 34,
+    "HaloChip": 34,
+    "LinkMems": 34,
+    "PinTeng": 34,
+    "Sam&wing": 34,
+    "ABLIC": 33,
+    "Dialog Semiconductor": 33,
+    "JF": 33,
+    "PADAUK Tech": 33,
+    "Alliance Memory": 32,
+    "HopeRF Micro electronics": 32,
+    "Micron Tech": 32,
+    "Shenzhen ruichips Semicon": 32,
+    "Advanced Monolithic Systems": 31,
+    "Everanalog IC design": 31,
+    "JRC": 31,
+    "MACOM": 31,
+    "MST": 31,
+    "SURGING": 31,
+    "Marvell Tech": 30,
+    "TPOWER": 30,
+    "Fitipower Integrated Tech": 29,
+    "GTIC": 29,
+    "Mixic": 29,
+    "Motorcomm": 29,
+    "Allwinner Tech": 28,
+    "Bardeen Micro.": 28,
+    "HUAXIN": 28,
+    "RealChip": 28,
+    "Shenzhen Nsiway Tech": 28,
+    "ARK micro": 27,
+    "GEC": 27,
+    "InventChip": 27,
+    "Jiaxing Heroic Elec Tech": 27,
+    "JoulWatt Tech": 27,
+    "Wuxi China Resources Huajing Microelectronics": 27,
+    "Anpec Elec": 26,
+    "FORESEE": 26,
+    "GOSEMICON": 26,
+    "Kiwi Instruments": 26,
+    "Melexis": 26,
+    "Shanghai Holychip Elec": 26,
+    "Galaxy": 25,
+    "MindMotion Microelectronics": 25,
+    "PANASONIC": 25,
+    "CW": 24,
+    "Gotop": 24,
+    "HEXIN": 24,
+    "HYCON Tech": 24,
+    "LANKE": 24,
+    "LKWIC": 24,
+    "OCIC": 24,
+    "Ricoh Elec Devices": 24,
+    "Rockchip": 24,
+    "VPSC": 24,
+    "CET(Chino-Excel Tech)": 23,
+    "TOPPOWER(Nanjing Extension Microelectronics)": 23,
+    "Wurth Elektronik": 23,
+    "Hubei KENTO Elec": 22,
+    "iCM": 22,
+    "Navitas": 22,
+    "OCX": 22,
+    "SETsafe  |  SETfuse": 22,
+    "Sungine": 22,
+    "TDK InvenSense": 22,
+    "ZILLTEK": 22,
+    "Asahi Kasei Microdevices": 21,
+    "FUJITSU": 21,
+    "Leadtrend Tech": 21,
+    "PN SILICON": 21,
+    "SINEDEVICE": 21,
+    "SOLA-IC": 21,
+    "XI'AN Aerosemi Tech": 21,
+    "Adesto Technologies": 20,
+    "COSEMITECH": 20,
+    "Hichips": 20,
+    "HUXN": 20,
+    "Shenzhen JDT Fuse": 20,
+    "UNI SEMIC": 20,
+    "XCH": 20,
+    "Zynalog": 20,
+    "AMAZING": 19,
+    "Chongqing Pingwei Tech": 19,
+    "CIMO": 19,
+    "Flashchip Microelectronics": 19,
+    "Legendsemi": 19,
+    "MAXIC Tech": 19,
+    "OSRAM Opto Semicon": 19,
+    "prosemi": 19,
+    "QNHCHIP": 19,
+    "Espressif Systems": 18,
+    "ICW": 18,
+    "Nanya Tech": 18,
+    "NVE": 18,
+    "Shenzhen Sunmoon Micro": 18,
+    "Taiwan Semiconductor": 18,
+    "FH(Guangdong Fenghua Advanced Tech)": 17,
+    "GoChip Elec Tech Shanghai": 17,
+    "KIOXIA": 17,
+    "Maxscend": 17,
+    "ORIENTAL SEMI": 17,
+    "RONGHE Microelectronics": 17,
+    "Silverlight": 17,
+    "Vanguard": 17,
+    "Yenji Elec": 17,
+    "CKS": 16,
+    "Feeling Tech": 16,
+    "Nanjing Zhongke Microelectronics": 16,
+    "POWLICON": 16,
+    "Sichainsemi": 16,
+    "UNI-SEMI": 16,
+    "VIBRATION": 16,
+    "XBLW": 16,
+    "ZHONGKEWEI": 16,
+    "Advanced Analog Technology": 15,
+    "CHIPLON": 15,
+    "Dialog Semiconductor Adesto Adesto Technologies": 15,
+    "Everest-semi(Everest Semiconductor)": 15,
+    "HENGTUO ELECTRONICS": 15,
+    "HL Haolin Elec": 15,
+    "ICMAN Tech": 15,
+    "Inolux": 15,
+    "LEADPOWER": 15,
+    "MST Magnesensor Tech MST": 15,
+    "SK HYNIX": 15,
+    "VP": 15,
+    "wisesun": 15,
+    "Bosch Sensortec": 14,
+    "Eutech Microelectronics": 14,
+    "Full Way": 14,
+    "Maplesemi": 14,
+    "WAVE": 14,
+    "Haoyu Microelectronics": 13,
+    "HiTrend Tech Shanghai": 13,
+    "ISOMICRON": 13,
+    "Megawin Tech": 13,
+    "Me TECH": 13,
+    "Seiko Epson": 13,
+    "AGM Microelectronics": 12,
+    "AMS": 12,
+    "Genesys Logic": 12,
+    "IC Plus": 12,
+    "PIELENST": 12,
+    "PowTech CR PowTech Shanghai": 12,
+    "Qingdao Eastsoft Communication Tech": 12,
+    "RENERGY": 12,
+    "SCME": 12,
+    "Shanghai Super Semiconductor": 12,
+    "SONIX": 12,
+    "TDD": 12,
+    "VIVA": 12,
+    "XSSY": 12,
+    "YW": 12,
+    "ZLG Zhiyuan Elec": 12,
+    "Artinchip": 11,
+    "Broadic": 11,
+    "CT Micro International": 11,
+    "Forsinve": 11,
+    "iModule": 11,
+    "INGHAi": 11,
+    "JCHL Shenzhen Jing Chuang He Li Tech": 11,
+    "Macrosilicon": 11,
+    "Sinopower Semicon": 11,
+    "CoreChips": 10,
+    "GXCAS": 10,
+    "Hynetek": 10,
+    "Letex": 10,
+    "Lumissil Microsystems": 10,
+    "Murata Electronics": 10,
+    "NIKO Semicon": 10,
+    "Nisshinbo Micro Devices Inc": 10,
+    "Shenzhen CYT Semicon Tech": 10,
+    "TF": 10,
+    "AD Semicon": 9,
+    "A Power microelectronics": 9,
+    "Avia Semicon (Xiamen)": 9,
+    "Boarden": 9,
+    "DAVICOM": 9,
+    "Dersem": 9,
+    "Inbisen": 9,
+    "Metorage": 9,
+    "MOSPEC Semicon": 9,
+    "ROHM": 9,
+    "Semiwell": 9,
+    "Silicore": 9,
+    "Tontek Design Tech": 9,
+    "BeyondUV": 8,
+    "ESHINE": 8,
+    "Feng Niao RF": 8,
+    "GD": 8,
+    "Goertek": 8,
+    "Kodenshi AUK": 8,
+    "Kyocera AVX": 8,
+    "Micro Crystal": 8,
+    "Nanjing Ouzhuo Tech": 8,
+    "Semiment": 8,
+    "SM Switch": 8,
+    "SOCAY Elec": 8,
+    "WIZNET": 8,
+    "WL": 8,
+    "YLPTEC": 8,
+    "ARKLED Wuxi ARK Tech Elec": 7,
+    "BASiC Semiconductor": 7,
+    "CXMT": 7,
+    "ETERNAL": 7,
+    "Everspin Tech": 7,
+    "FeiHong": 7,
+    "HICHON": 7,
+    "Kingston Technology": 7,
+    "Lingyang Micro": 7,
+    "MBI": 7,
+    "Shenzhen Developer Microelec.": 7,
+    "Taiwan Semiconductor(Taiwan Semicon)": 7,
+    "Vollgo": 7,
+    "2Pai Semi": 6,
+    "AutoChips": 6,
+    "Cooperation": 6,
+    "GPowerTek": 6,
+    "HYPWR": 6,
+    "JYJE": 6,
+    "KINETIC": 6,
+    "Legendary": 6,
+    "MODSEMI": 6,
+    "Nanjing AH Elec S & T": 6,
+    "Rayson": 6,
+    "Runjet": 6,
+    "SANDISK": 6,
+    "Shenzhen Kinghelm Elec": 6,
+    "Tai-Action": 6,
+    "WEIKAI": 6,
+    "Cmedia": 5,
+    "Cmsemicon": 5,
+    "coileasy": 5,
+    "Creat Storage World": 5,
+    "GBG": 5,
+    "HeYangTek": 5,
+    "JTD": 5,
+    "Keysemi": 5,
+    "Lumileds": 5,
+    "Mysentech": 5,
+    "PFC Device": 5,
+    "QH MICRO-E": 5,
+    "Senba Sensing Tech": 5,
+    "TDK": 5,
+    "Terminus Tech": 5,
+    "ZHXN": 5,
+    "ADI": 4,
+    "Axelite Tech": 4,
+    "Chahua Electric": 4,
+    "Comchip Technology": 4,
+    "Dialight": 4,
+    "EATON": 4,
+    "ESMT Elite Semicon Memory Tech": 4,
+    "First Semicon": 4,
+    "GSTEK(Green Solution Technology)": 4,
+    "Hangzhou Nanochap Electronics": 4,
+    "Hangzhou SDIC Microelectronics": 4,
+    "HCTmicro": 4,
+    "HGC(Huaguan Semicon)": 4,
+    "Hiliwei Tech": 4,
+    "INPAQ": 4,
+    "Levetop": 4,
+    "MTK": 4,
+    "OptoSupply": 4,
+    "orisilicon": 4,
+    "PSemi": 4,
+    "QT Brightek (QTB)": 4,
+    "Qualcomm": 4,
+    "SCILICON ELECTRIC": 4,
+    "SENSORTEK": 4,
+    "Shenzhen FAST Sensors": 4,
+    "ST": 4,
+    "SunLED": 4,
+    "Synoxo": 4,
+    "THine Elec": 4,
+    "VISHAY": 4,
+    "Walsin Tech Corp": 4,
+    "WUXI TOP": 4,
+    "Abracon LLC": 3,
+    "ALPSALPINE": 3,
+    "AME": 3,
+    "ASDsemi": 3,
+    "Beijing Yu tone World Tech": 3,
+    "BOYAMICRO": 3,
+    "California Eastern Laboratories": 3,
+    "Canaan": 3,
+    "DERAY": 3,
+    "DIODES": 3,
+    "EPC": 3,
+    "FREQCHIP": 3,
+    "GW": 3,
+    "HARRIS": 3,
+    "KNSCHA": 3,
+    "Kodenshi": 3,
+    "Linear Tech": 3,
+    "Lyontek Inc.": 3,
+    "MEMSIC": 3,
+    "Microsemi": 3,
+    "MW MEAN WELL Enterprises": 3,
+    "Nyfea": 3,
+    "Omron Electronics": 3,
+    "OTW": 3,
+    "Pericom/Diodes": 3,
+    "PIP": 3,
+    "Potens": 3,
+    "Power X": 3,
+    "Prolific Tech": 3,
+    "QST": 3,
+    "radiolink": 3,
+    "Raspberry Pi": 3,
+    "rlt": 3,
+    "SALLTECH": 3,
+    "Sequoia Microelectronics": 3,
+    "SI": 3,
+    "Sifirst": 3,
+    "SPANSION": 3,
+    "SX Shenzhen Suosemi Tech": 3,
+    "TT Electronics": 3,
+    "VLSI Solution": 3,
+    "XMOS": 3,
+    "ZRE": 3,
+    "ABOV Semicon": 2,
+    "AEM": 2,
+    "ALLEGRO": 2,
+    "AMICCOM Elec": 2,
+    "Apex Microtechnology": 2,
+    "AVX": 2,
+    "BIVAR": 2,
+    "BPS Bright Power Semicon": 2,
+    "Bruckewell": 2,
+    "Chengdu Ebyte Elec Tech": 2,
+    "chipup": 2,
+    "Daily Silver Imp Microelectronics": 2,
+    "GMA": 2,
+    "GP(GreenPower)": 2,
+    "Haawking": 2,
+    "HUAHONG": 2,
+    "HVDIODE": 2,
+    "ICORE": 2,
+    "JT Microelectronics": 2,
+    "KCT": 2,
+    "LEADCHIP": 2,
+    "LETO": 2,
+    "LIZ Elec": 2,
+    "Lumex": 2,
+    "Luminus Devices": 2,
+    "Moda Innochips": 2,
+    "NEOTEC": 2,
+    "Nyquest Tech": 2,
+    "PUYA(普冉)": 2,
+    "RC Suzhou Ruikong Microelec": 2,
+    "Realmagic": 2,
+    "RECTRON": 2,
+    "RichWave": 2,
+    "Saiya Sensor": 2,
+    "Sanken Elec": 2,
+    "Shanghai Nicera Sensor": 2,
+    "Shenzhen Chip Hope Micro-Electronics": 2,
+    "Signal Micro": 2,
+    "Solomon Systech": 2,
+    "VOLTAIC": 2,
+    "waferbest": 2,
+    "Wurth": 2,
+    "YAGEO": 2,
+    "YICHIP": 2,
+    "ZYMICRO": 2,
+    "AF": 1,
+    "Alcor Micro": 1,
+    "Alfa": 1,
+    "Altera": 1,
+    "AMD(Advanced Micro Devices)": 1,
+    "AMOTECH": 1,
+    "Anlogic": 1,
+    "AOS": 1,
+    "ASIX Elec": 1,
+    "ASSEMSTAR": 1,
+    "ATI": 1,
+    "baocheng": 1,
+    "Bridgetek": 1,
+    "Brightek Optoelectronics": 1,
+    "BUSSMANN": 1,
+    "BYD": 1,
+    "CDK": 1,
+    "Celfras": 1,
+    "Cellwise": 1,
+    "CETC": 1,
+    "Cheng Xin Wei Tech": 1,
+    "ChipON": 1,
+    "Chip Rail": 1,
+    "Convert Semiconductor": 1,
+    "CreeLED, Inc.": 1,
+    "CS Semiconductor": 1,
+    "DAPU": 1,
+    "DC(DongChen)": 1,
+    "ELAN Microelectronics": 1,
+    "ENDRIVE": 1,
+    "Fortune Semicon": 1,
+    "Fuji Electric": 1,
+    "Hexawave": 1,
+    "HRmicro": 1,
+    "HUATECH SEMICONDUCTOR": 1,
+    "HUAWEI": 1,
+    "HY Elec": 1,
+    "International Rectifier": 1,
+    "ISC": 1,
+    "JESTEK": 1,
+    "KEMET": 1,
+    "Kinglight": 1,
+    "Knowles": 1,
+    "Lextar": 1,
+    "Marktech Optoelectronics": 1,
+    "Matrix Opto": 1,
+    "MEGSINE": 1,
+    "MEMS": 1,
+    "MFrontier": 1,
+    "MIXINNO": 1,
+    "Multicomp": 1,
+    "NEC": 1,
+    "NTE ELECTRONICS INC": 1,
+    "OmniVision Technologies": 1,
+    "OPTEK": 1,
+    "Panchip Microele": 1,
+    "Parade Technologies": 1,
+    "Philips Semicons": 1,
+    "PixArt": 1,
+    "POWERBUS": 1,
+    "PST": 1,
+    "QNH": 1,
+    "Ru Bo Microelectronics": 1,
+    "Shenzhen Zhihao Elec": 1,
+    "SICHE": 1,
+    "Silicon Billion": 1,
+    "Siliconmitus Silicon Mitus": 1,
+    "Silicon Wisdom Tech": 1,
+    "SIMCom Wireless Solutions Limited": 1,
+    "STANDEXMEDER": 1,
+    "Swissbit": 1,
+    "TCS": 1,
+    "TE Connectivity": 1,
+    "Texas Instruments TI": 1,
+    "VCC": 1,
+    "Venkel": 1,
+    "VIA Tech": 1,
+    "VICOR": 1,
+    "Vilsion Tech": 1,
+    "Winbond": 1,
+    "Winchen": 1,
+    "Winsemi": 1,
+    "WT Guangzhou Wei Chuang Elec": 1,
+    "Wurth Electronic": 1,
+    "XICOR": 1,
+    "XKB Connectivity": 1,
+    "YANGJIE": 1,
+    "YXC Crystal Oscillators": 1
+  },
+  "observed_name_aliases": {
+    "(DIOTEC)": [
+      "(DIOTEC)",
+      "DIOTEC"
+    ],
+    "2Pai Semi": [
+      "2Pai Semi"
+    ],
+    "3PEAK": [
+      "3PEAK"
+    ],
+    "A Power microelectronics": [
+      "A Power microelectronics"
+    ],
+    "ABLIC": [
+      "ABLIC"
+    ],
+    "ABOV Semicon": [
+      "ABOV Semicon"
+    ],
+    "AD Semicon": [
+      "AD Semicon"
+    ],
+    "ADI": [
+      "ADI"
+    ],
+    "AEM": [
+      "AEM"
+    ],
+    "AF": [
+      "AF"
+    ],
+    "AGM Microelectronics": [
+      "AGM Microelectronics"
+    ],
+    "AGM-Semi": [
+      "AGM Semi",
+      "AGM-Semi"
+    ],
+    "AIC Analog Integrations": [
+      "AIC Analog Integrations",
+      "AIC(Analog Integrations)"
+    ],
+    "ALJ": [
+      "ALJ"
+    ],
+    "ALLEGRO": [
+      "ALLEGRO"
+    ],
+    "ALLPOWER(ShenZhen Quan Li Semiconductor)": [
+      "ALLPOWER ShenZhen Quan Li Semiconductor",
+      "ALLPOWER(ShenZhen Quan Li Semiconductor)"
+    ],
+    "ALPSALPINE": [
+      "ALPSALPINE"
+    ],
+    "AMAZING": [
+      "AMAZING"
+    ],
+    "AMD(Advanced Micro Devices)": [
+      "AMD(Advanced Micro Devices)"
+    ],
+    "AMD/XILINX": [
+      "AMD XILINX",
+      "AMD/XILINX"
+    ],
+    "AME": [
+      "AME"
+    ],
+    "AMICCOM Elec": [
+      "AMICCOM Elec"
+    ],
+    "AMOTECH": [
+      "AMOTECH"
+    ],
+    "AMS": [
+      "AMS"
+    ],
+    "ANHI": [
+      "ANHI"
+    ],
+    "AOS": [
+      "AOS"
+    ],
+    "AOTE": [
+      "AOTE"
+    ],
+    "APEC(Advanced Power Elec)": [
+      "APEC Advanced Power Elec",
+      "APEC(Advanced Power Elec)"
+    ],
+    "ARK micro": [
+      "ARK micro"
+    ],
+    "ARKLED Wuxi ARK Tech Elec": [
+      "ARKLED Wuxi ARK Tech Elec",
+      "ARKLED(Wuxi ARK Tech Elec)"
+    ],
+    "ARTERY": [
+      "ARTERY"
+    ],
+    "ASDsemi": [
+      "ASDsemi"
+    ],
+    "ASIX Elec": [
+      "ASIX Elec"
+    ],
+    "ASSEMSTAR": [
+      "ASSEMSTAR"
+    ],
+    "ATI": [
+      "ATI"
+    ],
+    "AVX": [
+      "AVX"
+    ],
+    "AWINIC(Shanghai Awinic Tech)": [
+      "AWINIC Shanghai Awinic Tech",
+      "AWINIC(Shanghai Awinic Tech)"
+    ],
+    "Abracon LLC": [
+      "Abracon LLC"
+    ],
+    "Adesto Technologies": [
+      "Adesto Technologies"
+    ],
+    "Advanced Analog Technology": [
+      "Advanced Analog Technology"
+    ],
+    "Advanced Monolithic Systems": [
+      "Advanced Monolithic Systems"
+    ],
+    "Agertech": [
+      "Agertech"
+    ],
+    "Alcor Micro": [
+      "Alcor Micro"
+    ],
+    "Alfa": [
+      "Alfa"
+    ],
+    "Allegro MicroSystems LLC": [
+      "Allegro MicroSystems LLC",
+      "Allegro MicroSystems, LLC"
+    ],
+    "Alliance Memory": [
+      "Alliance Memory"
+    ],
+    "Allwinner Tech": [
+      "Allwinner Tech"
+    ],
+    "Alpha & Omega Semicon": [
+      "Alpha & Omega Semicon",
+      "Alpha Omega Semicon"
+    ],
+    "Altera": [
+      "Altera"
+    ],
+    "Amicc": [
+      "Amicc"
+    ],
+    "AnBon": [
+      "AnBon"
+    ],
+    "AnaSem": [
+      "AnaSem"
+    ],
+    "Analog Devices": [
+      "ANALOG DEVICES",
+      "Analog Devices",
+      "Analog Devices Inc."
+    ],
+    "Anlogic": [
+      "Anlogic"
+    ],
+    "Anpec Elec": [
+      "Anpec Elec"
+    ],
+    "Apex Microtechnology": [
+      "Apex Microtechnology"
+    ],
+    "Applied Power": [
+      "Applied Power"
+    ],
+    "Artinchip": [
+      "Artinchip"
+    ],
+    "Asahi Kasei Microdevices": [
+      "Asahi Kasei Microdevices"
+    ],
+    "Ascend": [
+      "Ascend"
+    ],
+    "AutoChips": [
+      "AutoChips"
+    ],
+    "Avia Semicon (Xiamen)": [
+      "Avia Semicon (Xiamen)",
+      "Avia Semicon Xiamen"
+    ],
+    "Axelite Tech": [
+      "Axelite Tech"
+    ],
+    "BASiC Semiconductor": [
+      "BASiC Semiconductor"
+    ],
+    "BIVAR": [
+      "BIVAR"
+    ],
+    "BL(Shanghai Belling)": [
+      "BL Shanghai Belling",
+      "BL(Shanghai Belling)"
+    ],
+    "BORN": [
+      "BORN"
+    ],
+    "BOYAMICRO": [
+      "BOYAMICRO"
+    ],
+    "BPS Bright Power Semicon": [
+      "BPS Bright Power Semicon",
+      "BPS(Bright Power Semicon)"
+    ],
+    "BROADCHIP": [
+      "BROADCHIP"
+    ],
+    "BUSSMANN": [
+      "BUSSMANN"
+    ],
+    "BYD": [
+      "BYD"
+    ],
+    "Bardeen Micro.": [
+      "Bardeen Micro",
+      "Bardeen Micro."
+    ],
+    "Beijing Yu tone World Tech": [
+      "Beijing Yu tone World Tech"
+    ],
+    "Bencent": [
+      "Bencent"
+    ],
+    "Bestirpower": [
+      "Bestirpower"
+    ],
+    "BeyondUV": [
+      "BeyondUV"
+    ],
+    "Boarden": [
+      "Boarden"
+    ],
+    "Bosch Sensortec": [
+      "Bosch Sensortec"
+    ],
+    "Bourns": [
+      "BOURNS",
+      "Bourns Inc."
+    ],
+    "Bridgetek": [
+      "Bridgetek"
+    ],
+    "Brightek Optoelectronics": [
+      "Brightek Optoelectronics"
+    ],
+    "Brightking": [
+      "Brightking",
+      "Brightking Elec (TAIWAN)"
+    ],
+    "Broadcom": [
+      "AVAGO Broadcom",
+      "AVAGO(Broadcom)",
+      "Broadcom",
+      "Broadcom AVAGO",
+      "Broadcom/AVAGO"
+    ],
+    "Broadcom Limited": [
+      "Broadcom Limited"
+    ],
+    "Broadic": [
+      "Broadic"
+    ],
+    "BrtLed(Bright LED Elec)": [
+      "BrtLed Bright LED Elec",
+      "BrtLed(Bright LED Elec)"
+    ],
+    "Bruckewell": [
+      "Bruckewell"
+    ],
+    "CBI": [
+      "CBI"
+    ],
+    "CDK": [
+      "CDK"
+    ],
+    "CET(Chino-Excel Tech)": [
+      "CET Chino Excel Tech",
+      "CET(Chino-Excel Tech)"
+    ],
+    "CETC": [
+      "CETC"
+    ],
+    "CHIPLON": [
+      "CHIPLON"
+    ],
+    "CHIPSEA": [
+      "CHIPSEA"
+    ],
+    "CIMO": [
+      "CIMO"
+    ],
+    "CKS": [
+      "CKS"
+    ],
+    "CONNTEK": [
+      "CONNTEK"
+    ],
+    "COSEMITECH": [
+      "COSEMITECH"
+    ],
+    "COSINE": [
+      "COSINE"
+    ],
+    "CREATEK": [
+      "CREATEK"
+    ],
+    "CRMICRO": [
+      "CRMICRO"
+    ],
+    "CS Semiconductor": [
+      "CS Semiconductor"
+    ],
+    "CT Micro International": [
+      "CT Micro International"
+    ],
+    "CW": [
+      "CW"
+    ],
+    "CXMT": [
+      "CXMT"
+    ],
+    "California Eastern Laboratories": [
+      "California Eastern Laboratories"
+    ],
+    "Canaan": [
+      "Canaan"
+    ],
+    "Celfras": [
+      "Celfras"
+    ],
+    "Cellwise": [
+      "Cellwise"
+    ],
+    "Chahua Electric": [
+      "Chahua Electric",
+      "Chahua-Electric"
+    ],
+    "Changjiang Electronics Tech (CJ)": [
+      "Changjiang Electronics Tech (CJ)",
+      "Changjiang Electronics Tech CJ"
+    ],
+    "Changzhou Starsea Elec": [
+      "Changzhou Starsea Elec"
+    ],
+    "Chau Light": [
+      "Chau Light"
+    ],
+    "Cheng Xin Wei Tech": [
+      "Cheng Xin Wei Tech"
+    ],
+    "Chengdu Ebyte Elec Tech": [
+      "Chengdu Ebyte Elec Tech"
+    ],
+    "Chip Rail": [
+      "Chip Rail"
+    ],
+    "ChipLink Tech": [
+      "ChipLink Tech"
+    ],
+    "ChipNobo": [
+      "ChipNobo"
+    ],
+    "ChipON": [
+      "ChipON"
+    ],
+    "Chipanalog": [
+      "Chipanalog"
+    ],
+    "Chongqing Pingwei Tech": [
+      "Chongqing Pingwei Tech"
+    ],
+    "Cirrus Logic": [
+      "Cirrus Logic"
+    ],
+    "Cmedia": [
+      "Cmedia"
+    ],
+    "Cmos": [
+      "Cmos"
+    ],
+    "Cmsemicon": [
+      "Cmsemicon"
+    ],
+    "Comchip": [
+      "Comchip"
+    ],
+    "Comchip Technology": [
+      "Comchip Technology"
+    ],
+    "Convert Semiconductor": [
+      "Convert Semiconductor"
+    ],
+    "Cooperation": [
+      "Cooperation"
+    ],
+    "CoreChips": [
+      "CoreChips"
+    ],
+    "Corebai Microelectronics": [
+      "Corebai Microelectronics"
+    ],
+    "Cosmo Electronics": [
+      "Cosmo Electronics"
+    ],
+    "Creat Storage World": [
+      "Creat Storage World"
+    ],
+    "CreeLED, Inc.": [
+      "CreeLED, Inc."
+    ],
+    "Cross chip": [
+      "Cross chip"
+    ],
+    "Cypress Semicon": [
+      "Cypress Semicon"
+    ],
+    "DAPU": [
+      "DAPU"
+    ],
+    "DAVICOM": [
+      "DAVICOM"
+    ],
+    "DC(DongChen)": [
+      "DC(DongChen)"
+    ],
+    "DERAY": [
+      "DERAY"
+    ],
+    "DIODES": [
+      "DIODES"
+    ],
+    "DIOO": [
+      "DIOO"
+    ],
+    "DIYI Elec Tech": [
+      "DIYI Elec Tech"
+    ],
+    "DOINGTER": [
+      "DOINGTER"
+    ],
+    "DOWO": [
+      "DOWO"
+    ],
+    "DSTECH": [
+      "DSTECH"
+    ],
+    "Daily Silver Imp Microelectronics": [
+      "Daily Silver Imp Microelectronics"
+    ],
+    "Dersem": [
+      "Dersem"
+    ],
+    "Dialight": [
+      "Dialight"
+    ],
+    "Dialog Semiconductor": [
+      "Dialog Semiconductor"
+    ],
+    "Dialog Semiconductor Adesto Adesto Technologies": [
+      "Dialog Semiconductor Adesto Adesto Technologies",
+      "Dialog Semiconductor/Adesto Adesto Technologies"
+    ],
+    "Diodes Incorporated": [
+      "Diodes Incorporated"
+    ],
+    "EATON": [
+      "EATON"
+    ],
+    "EG Micro": [
+      "EG Micro"
+    ],
+    "EIC Semicon": [
+      "EIC Semicon"
+    ],
+    "EKINGLUX": [
+      "EKINGLUX"
+    ],
+    "ELAN Microelectronics": [
+      "ELAN Microelectronics"
+    ],
+    "ENDRIVE": [
+      "ENDRIVE"
+    ],
+    "EPC": [
+      "EPC"
+    ],
+    "ESHINE": [
+      "ESHINE"
+    ],
+    "ESMT Elite Semicon Memory Tech": [
+      "ESMT Elite Semicon Memory Tech"
+    ],
+    "ETERNAL": [
+      "ETERNAL"
+    ],
+    "ElecSuper": [
+      "ElecSuper"
+    ],
+    "Espressif Systems": [
+      "Espressif Systems"
+    ],
+    "Eutech Microelectronics": [
+      "Eutech Microelectronics"
+    ],
+    "Everanalog IC design": [
+      "Everanalog IC design"
+    ],
+    "Everest-semi(Everest Semiconductor)": [
+      "Everest semi Everest Semiconductor",
+      "Everest-semi(Everest Semiconductor)"
+    ],
+    "Everlight Elec": [
+      "Everlight Elec"
+    ],
+    "Everspin Tech": [
+      "Everspin Tech"
+    ],
+    "Existar": [
+      "Existar"
+    ],
+    "FH(Guangdong Fenghua Advanced Tech)": [
+      "FH (Guangdong Fenghua Advanced Tech)",
+      "FH Guangdong Fenghua Advanced Tech",
+      "FH(Guangdong Fenghua Advanced Tech)"
+    ],
+    "FMD Fremont Micro Devices": [
+      "FMD Fremont Micro Devices",
+      "FMD(Fremont Micro Devices)"
+    ],
+    "FMS Formosa Microsemi": [
+      "FMS Formosa Microsemi",
+      "FMS(Formosa Microsemi)"
+    ],
+    "FORESEE": [
+      "FORESEE"
+    ],
+    "FOSAN": [
+      "FOSAN"
+    ],
+    "FREQCHIP": [
+      "FREQCHIP"
+    ],
+    "FTDI": [
+      "FTDI"
+    ],
+    "FTR": [
+      "FTR"
+    ],
+    "FUDAN MICRO": [
+      "FUDAN MICRO"
+    ],
+    "FUJITSU": [
+      "FUJITSU"
+    ],
+    "FUXINSEMI": [
+      "FUXINSEMI"
+    ],
+    "Feeling Tech": [
+      "Feeling Tech"
+    ],
+    "FeiHong": [
+      "FeiHong"
+    ],
+    "Feng Niao RF": [
+      "Feng Niao RF"
+    ],
+    "First Semicon": [
+      "First Semicon"
+    ],
+    "Fitipower Integrated Tech": [
+      "Fitipower Integrated Tech"
+    ],
+    "Flashchip Microelectronics": [
+      "Flashchip Microelectronics"
+    ],
+    "Forsinve": [
+      "Forsinve"
+    ],
+    "Fortior Tech": [
+      "Fortior Tech"
+    ],
+    "Fortune Semicon": [
+      "Fortune Semicon"
+    ],
+    "Foshan Blue Rocket Elec": [
+      "BLUE ROCKET",
+      "Foshan Blue Rocket Elec"
+    ],
+    "Foshan NationStar Optoelectronics": [
+      "Foshan NationStar Optoelectronics"
+    ],
+    "Fuji Electric": [
+      "Fuji Electric"
+    ],
+    "Full Way": [
+      "Full Way",
+      "Full-Way"
+    ],
+    "GATEMODE": [
+      "GATEMODE"
+    ],
+    "GBG": [
+      "GBG"
+    ],
+    "GD": [
+      "GD"
+    ],
+    "GEC": [
+      "GEC"
+    ],
+    "GMA": [
+      "GMA"
+    ],
+    "GN Semic": [
+      "GN Semic"
+    ],
+    "GOFORD": [
+      "GOFORD"
+    ],
+    "GONGMOSEMI": [
+      "GONGMOSEMI"
+    ],
+    "GOSEMICON": [
+      "GOSEMICON"
+    ],
+    "GP(GreenPower)": [
+      "GP(GreenPower)"
+    ],
+    "GPowerTek": [
+      "GPowerTek"
+    ],
+    "GR": [
+      "GR"
+    ],
+    "GSTEK(Green Solution Technology)": [
+      "GSTEK Green Solution Technology",
+      "GSTEK(Green Solution Technology)"
+    ],
+    "GTIC": [
+      "GTIC"
+    ],
+    "GUOXIN JIAPIN SEMICONDUCTOR": [
+      "GUOXIN JIAPIN SEMICONDUCTOR"
+    ],
+    "GW": [
+      "GW"
+    ],
+    "GXCAS": [
+      "GXCAS"
+    ],
+    "Gainsil": [
+      "Gainsil"
+    ],
+    "Galaxy": [
+      "Galaxy"
+    ],
+    "Gcore": [
+      "Gcore"
+    ],
+    "Geehy": [
+      "Geehy"
+    ],
+    "Genesys Logic": [
+      "Genesys Logic"
+    ],
+    "GigaDevice Semicon Beijing": [
+      "GigaDevice Semicon Beijing"
+    ],
+    "GoChip Elec Tech Shanghai": [
+      "GoChip Elec Tech (Shanghai)",
+      "GoChip Elec Tech Shanghai"
+    ],
+    "Goertek": [
+      "Goertek"
+    ],
+    "Goodwork": [
+      "GOODWORK",
+      "GOODWORK(固得沃克)"
+    ],
+    "Gotop": [
+      "Gotop"
+    ],
+    "Grenergy": [
+      "Grenergy"
+    ],
+    "Guangdong Hottech": [
+      "Guangdong Hottech"
+    ],
+    "Guestgood": [
+      "Guestgood"
+    ],
+    "HANSCHIP semiconductor": [
+      "HANSCHIP semiconductor"
+    ],
+    "HARRIS": [
+      "HARRIS"
+    ],
+    "HCTmicro": [
+      "HCTmicro"
+    ],
+    "HEERMICR": [
+      "HEERMICR"
+    ],
+    "HENGTUO ELECTRONICS": [
+      "HENGTUO ELECTRONICS"
+    ],
+    "HEXIN": [
+      "HEXIN"
+    ],
+    "HGC(Huaguan Semicon)": [
+      "HGC Huaguan Semicon",
+      "HGC(Huaguan Semicon)"
+    ],
+    "HGSEMI": [
+      "HGSEMI"
+    ],
+    "HICHON": [
+      "HICHON"
+    ],
+    "HK": [
+      "HK"
+    ],
+    "HL": [
+      "HL"
+    ],
+    "HL Haolin Elec": [
+      "HL Haolin Elec"
+    ],
+    "HONGLITRONIC(Hongli Zhihui (HONGLITRONIC))": [
+      "HONGLITRONIC Hongli Zhihui HONGLITRONIC",
+      "HONGLITRONIC(Hongli Zhihui (HONGLITRONIC))"
+    ],
+    "HRmicro": [
+      "HRmicro"
+    ],
+    "HT Shenzhen Jinyu Semicon": [
+      "HT Shenzhen Jinyu Semicon",
+      "HT(Shenzhen Jinyu Semicon)"
+    ],
+    "HTC Korea TAEJIN Tech": [
+      "HTC Korea TAEJIN Tech"
+    ],
+    "HTCSEMI": [
+      "HTCSEMI"
+    ],
+    "HUAHONG": [
+      "HUAHONG"
+    ],
+    "HUAKE": [
+      "HUAKE"
+    ],
+    "HUASHUO": [
+      "HUASHUO"
+    ],
+    "HUATECH SEMICONDUCTOR": [
+      "HUATECH SEMICONDUCTOR"
+    ],
+    "HUAWEI": [
+      "HUAWEI"
+    ],
+    "HUAXIN": [
+      "HUAXIN"
+    ],
+    "HUAYI": [
+      "HUAYI"
+    ],
+    "HUXN": [
+      "HUXN"
+    ],
+    "HVDIODE": [
+      "HVDIODE"
+    ],
+    "HX(hengjiaxing)": [
+      "HX hengjiaxing",
+      "HX(hengjiaxing)"
+    ],
+    "HXY MOSFET": [
+      "HXY MOSFET"
+    ],
+    "HY Elec": [
+      "HY Elec"
+    ],
+    "HYCON Tech": [
+      "HYCON Tech"
+    ],
+    "HYPWR": [
+      "HYPWR"
+    ],
+    "Haawking": [
+      "Haawking"
+    ],
+    "Hallwee": [
+      "Hallwee"
+    ],
+    "HaloChip": [
+      "HaloChip"
+    ],
+    "Hangzhou Nanochap Electronics": [
+      "Hangzhou Nanochap Electronics"
+    ],
+    "Hangzhou Ruimeng Tech": [
+      "Hangzhou Ruimeng Tech"
+    ],
+    "Hangzhou SDIC Microelectronics": [
+      "Hangzhou SDIC Microelectronics"
+    ],
+    "Hangzhou Silan Microelectronics": [
+      "Hangzhou Silan Microelectronics"
+    ],
+    "Haoyu Microelectronics": [
+      "Haoyu Microelectronics"
+    ],
+    "HeYangTek": [
+      "HeYangTek"
+    ],
+    "Hexawave": [
+      "Hexawave"
+    ],
+    "HiTrend Tech Shanghai": [
+      "HiTrend Tech (Shanghai)",
+      "HiTrend Tech Shanghai"
+    ],
+    "Hichips": [
+      "Hichips"
+    ],
+    "High Diode": [
+      "High Diode"
+    ],
+    "Hiliwei Tech": [
+      "Hiliwei Tech"
+    ],
+    "Holtek Semicon": [
+      "Holtek Semicon"
+    ],
+    "Honeywell": [
+      "Honeywell"
+    ],
+    "HopeRF Micro electronics": [
+      "HopeRF Micro electronics",
+      "HopeRF Micro-electronics"
+    ],
+    "Hubei KENTO Elec": [
+      "Hubei KENTO Elec"
+    ],
+    "Hynetek": [
+      "Hynetek"
+    ],
+    "IC Plus": [
+      "IC Plus"
+    ],
+    "ICMAN Tech": [
+      "ICMAN Tech"
+    ],
+    "ICORE": [
+      "ICORE"
+    ],
+    "ICW": [
+      "ICW"
+    ],
+    "IDCHIP": [
+      "IDCHIP"
+    ],
+    "IKSEMICON": [
+      "IKSEMICON"
+    ],
+    "INGHAi": [
+      "INGHAi"
+    ],
+    "INJOINIC": [
+      "INJOINIC"
+    ],
+    "INPAQ": [
+      "INPAQ"
+    ],
+    "ISC": [
+      "ISC"
+    ],
+    "ISOMICRON": [
+      "ISOMICRON"
+    ],
+    "ISSI(Integrated Silicon Solution)": [
+      "ISSI Integrated Silicon Solution",
+      "ISSI(Integrated Silicon Solution)"
+    ],
+    "IXYS": [
+      "IXYS"
+    ],
+    "Inbisen": [
+      "Inbisen"
+    ],
+    "Infineon": [
+      "Infineon",
+      "Infineon Technologies"
+    ],
+    "Infineon Cypress Semicon": [
+      "Infineon Cypress Semicon",
+      "Infineon/Cypress Semicon"
+    ],
+    "Inolux": [
+      "Inolux"
+    ],
+    "Intel/Altera": [
+      "Intel Altera",
+      "Intel/Altera"
+    ],
+    "International Rectifier": [
+      "International Rectifier"
+    ],
+    "InventChip": [
+      "InventChip"
+    ],
+    "Isocom Components": [
+      "Isocom Components"
+    ],
+    "JCHL Shenzhen Jing Chuang He Li Tech": [
+      "JCHL Shenzhen Jing Chuang He Li Tech",
+      "JCHL(Shenzhen Jing Chuang He Li Tech)"
+    ],
+    "JESTEK": [
+      "JESTEK"
+    ],
+    "JF": [
+      "JF"
+    ],
+    "JNJ OPTOELECTRONICS": [
+      "JNJ OPTOELECTRONICS"
+    ],
+    "JRC": [
+      "JRC"
+    ],
+    "JSMSEMI": [
+      "JSMSEMI"
+    ],
+    "JT Microelectronics": [
+      "JT Microelectronics"
+    ],
+    "JTD": [
+      "JTD"
+    ],
+    "JUXING": [
+      "JUXING"
+    ],
+    "JYJE": [
+      "JYJE"
+    ],
+    "Jiangsu Changjing Electronics Technology Co., Ltd.": [
+      "Jiangsu Changjing Electronics Technology Co Ltd",
+      "Jiangsu Changjing Electronics Technology Co., Ltd."
+    ],
+    "Jiangsu JieJie Microelectronics": [
+      "Jiangsu JieJie Microelectronics"
+    ],
+    "Jiangsu RUNIC Tech": [
+      "Jiangsu RUNIC Tech"
+    ],
+    "Jiaxing Heroic Elec Tech": [
+      "Jiaxing Heroic Elec Tech"
+    ],
+    "JieLi Tech": [
+      "JieLi Tech"
+    ],
+    "Jilin Sino-Microelectronics": [
+      "Jilin Sino Microelectronics",
+      "Jilin Sino-Microelectronics"
+    ],
+    "JoulWatt Tech": [
+      "JoulWatt Tech"
+    ],
+    "KCT": [
+      "KCT"
+    ],
+    "KEC Semicon": [
+      "KEC Semicon"
+    ],
+    "KEMET": [
+      "KEMET"
+    ],
+    "KEXIN": [
+      "KEXIN"
+    ],
+    "KIA Semicon Tech": [
+      "KIA Semicon Tech"
+    ],
+    "KINETIC": [
+      "KINETIC"
+    ],
+    "KIOXIA": [
+      "KIOXIA"
+    ],
+    "KIWI": [
+      "KIWI"
+    ],
+    "KNSCHA": [
+      "KNSCHA"
+    ],
+    "KTP": [
+      "KTP"
+    ],
+    "KUU": [
+      "KUU"
+    ],
+    "KY": [
+      "KY"
+    ],
+    "Keysemi": [
+      "Keysemi"
+    ],
+    "Kingbright": [
+      "Kingbright"
+    ],
+    "Kinglight": [
+      "Kinglight"
+    ],
+    "Kingston Technology": [
+      "Kingston Technology"
+    ],
+    "Kiwi Instruments": [
+      "Kiwi Instruments"
+    ],
+    "Knowles": [
+      "Knowles"
+    ],
+    "Kodenshi": [
+      "Kodenshi"
+    ],
+    "Kodenshi AUK": [
+      "Kodenshi AUK"
+    ],
+    "Kyocera AVX": [
+      "Kyocera AVX"
+    ],
+    "LANKE": [
+      "LANKE"
+    ],
+    "LEADCHIP": [
+      "LEADCHIP"
+    ],
+    "LEADPOWER": [
+      "LEADPOWER"
+    ],
+    "LETO": [
+      "LETO"
+    ],
+    "LGE": [
+      "LGE"
+    ],
+    "LINKOSEMI": [
+      "LINKOSEMI"
+    ],
+    "LIZ Elec": [
+      "LIZ Elec"
+    ],
+    "LKWIC": [
+      "LKWIC"
+    ],
+    "LONTEN": [
+      "LONTEN"
+    ],
+    "LOWPOWER": [
+      "LOWPOWER"
+    ],
+    "LR": [
+      "LR"
+    ],
+    "LRC": [
+      "LRC"
+    ],
+    "LangJie": [
+      "LangJie"
+    ],
+    "Lattice": [
+      "Lattice"
+    ],
+    "Leadtrend Tech": [
+      "Leadtrend Tech"
+    ],
+    "Legend-Si": [
+      "Legend Si",
+      "Legend-Si"
+    ],
+    "Legendary": [
+      "Legendary"
+    ],
+    "Legendsemi": [
+      "Legendsemi"
+    ],
+    "Leiditech": [
+      "Leiditech"
+    ],
+    "Letex": [
+      "Letex"
+    ],
+    "Levetop": [
+      "Levetop"
+    ],
+    "Lewa Micro": [
+      "Lewa Micro"
+    ],
+    "Lextar": [
+      "Lextar"
+    ],
+    "Linear Tech": [
+      "Linear Tech"
+    ],
+    "Linearin": [
+      "Linearin"
+    ],
+    "Lingyang Micro": [
+      "Lingyang Micro"
+    ],
+    "LinkMems": [
+      "LinkMems"
+    ],
+    "Liown": [
+      "Liown"
+    ],
+    "Lite-On": [
+      "LITEON",
+      "Lite On",
+      "Lite-On"
+    ],
+    "Littelfuse": [
+      "Littelfuse"
+    ],
+    "Littelfuse IXYS": [
+      "Littelfuse IXYS",
+      "Littelfuse/IXYS"
+    ],
+    "Lumex": [
+      "Lumex"
+    ],
+    "Lumileds": [
+      "Lumileds"
+    ],
+    "Luminus Devices": [
+      "Luminus Devices"
+    ],
+    "Lumissil Microsystems": [
+      "Lumissil Microsystems"
+    ],
+    "Lyontek Inc.": [
+      "Lyontek Inc."
+    ],
+    "MACOM": [
+      "MA COM",
+      "MA/COM",
+      "MACOM"
+    ],
+    "MASPOWER": [
+      "MASPOWER"
+    ],
+    "MATSUKI": [
+      "MATSUKI"
+    ],
+    "MAXIC Tech": [
+      "MAXIC Tech"
+    ],
+    "MBI": [
+      "MBI"
+    ],
+    "MCC Micro Commercial Components": [
+      "MCC",
+      "MCC Micro Commercial Components",
+      "MCC(Micro Commercial Components)"
+    ],
+    "MDD Microdiode Semiconductor": [
+      "MDD",
+      "MDD Microdiode Electronics",
+      "MDD Microdiode Semiconductor",
+      "MDD(Microdiode Electronics)",
+      "MDD(Microdiode Semiconductor)"
+    ],
+    "MEGSINE": [
+      "MEGSINE"
+    ],
+    "MEIHUA": [
+      "MEIHUA"
+    ],
+    "MEMS": [
+      "MEMS"
+    ],
+    "MEMSIC": [
+      "MEMSIC"
+    ],
+    "MFrontier": [
+      "MFrontier"
+    ],
+    "MICRONE(Nanjing Micro One Elec)": [
+      "MICRONE Nanjing Micro One Elec",
+      "MICRONE(Nanjing Micro One Elec)"
+    ],
+    "MIRACLE POWER": [
+      "MIRACLE POWER"
+    ],
+    "MIXINNO": [
+      "MIXINNO"
+    ],
+    "MK": [
+      "MK"
+    ],
+    "MODSEMI": [
+      "MODSEMI"
+    ],
+    "MOSPEC Semicon": [
+      "MOSPEC Semicon"
+    ],
+    "MOT": [
+      "MOT"
+    ],
+    "MSKSEMI": [
+      "MSKSEMI"
+    ],
+    "MST": [
+      "MST"
+    ],
+    "MST Magnesensor Tech MST": [
+      "MST Magnesensor Tech MST"
+    ],
+    "MTK": [
+      "MTK"
+    ],
+    "MW MEAN WELL Enterprises": [
+      "MW MEAN WELL Enterprises",
+      "MW(MEAN WELL Enterprises)"
+    ],
+    "MXIC(Macronix)": [
+      "MXIC Macronix",
+      "MXIC(Macronix)"
+    ],
+    "Macrosilicon": [
+      "Macrosilicon"
+    ],
+    "Magn Tek": [
+      "Magn Tek"
+    ],
+    "Maplesemi": [
+      "Maplesemi"
+    ],
+    "Marktech Optoelectronics": [
+      "Marktech Optoelectronics"
+    ],
+    "Marvell Tech": [
+      "Marvell Tech"
+    ],
+    "Matrix Opto": [
+      "Matrix Opto"
+    ],
+    "MaxLinear": [
+      "MaxLinear"
+    ],
+    "Maxim Integrated": [
+      "ADI(亚德诺)/MAXIM(美信)",
+      "ADI/MAXIM",
+      "Analog Devices Inc Maxim Integrated",
+      "Analog Devices Inc./Maxim Integrated",
+      "MAXIM",
+      "Maxim Integrated"
+    ],
+    "Maxscend": [
+      "Maxscend"
+    ],
+    "Me TECH": [
+      "Me TECH"
+    ],
+    "Megain": [
+      "Megain"
+    ],
+    "Megawin Tech": [
+      "Megawin Tech"
+    ],
+    "Melexis": [
+      "Melexis"
+    ],
+    "Metorage": [
+      "Metorage"
+    ],
+    "Micro Crystal": [
+      "Micro Crystal"
+    ],
+    "Microchip Technology": [
+      "MICROCHIP",
+      "Microchip Tech"
+    ],
+    "Micron Tech": [
+      "Micron Tech"
+    ],
+    "Microsemi": [
+      "Microsemi"
+    ],
+    "MindMotion Microelectronics": [
+      "MindMotion Microelectronics"
+    ],
+    "Mini-Circuits": [
+      "Mini Circuits",
+      "Mini-Circuits"
+    ],
+    "Minos": [
+      "Minos"
+    ],
+    "Mixic": [
+      "Mixic"
+    ],
+    "Moda Innochips": [
+      "Moda Innochips",
+      "Moda-Innochips"
+    ],
+    "Monolithic Power Systems": [
+      "MPS",
+      "Monolithic Power Systems",
+      "Monolithic Power Systems Inc.",
+      "Monolithic Power Systems MPS"
+    ],
+    "Motorcomm": [
+      "Motorcomm"
+    ],
+    "Multicomp": [
+      "Multicomp"
+    ],
+    "Murata Electronics": [
+      "Murata Electronics"
+    ],
+    "Mysentech": [
+      "Mysentech"
+    ],
+    "NATLINEAR": [
+      "NATLINEAR"
+    ],
+    "NDP": [
+      "NDP"
+    ],
+    "NEC": [
+      "NEC"
+    ],
+    "NEOTEC": [
+      "NEOTEC"
+    ],
+    "NEWOPTO": [
+      "NEWOPTO"
+    ],
+    "NH": [
+      "NH"
+    ],
+    "NIKO Semicon": [
+      "NIKO Semicon"
+    ],
+    "NOVOSENSE": [
+      "NOVOSENSE"
+    ],
+    "NTE ELECTRONICS INC": [
+      "NTE ELECTRONICS INC",
+      "NTE ELECTRONICS, INC."
+    ],
+    "NVE": [
+      "NVE"
+    ],
+    "NXP Semiconductors": [
+      "NXP Semicon",
+      "NXP USA Inc."
+    ],
+    "Nanjing AH Elec S & T": [
+      "Nanjing AH Elec S & T"
+    ],
+    "Nanjing Ouzhuo Tech": [
+      "Nanjing Ouzhuo Tech"
+    ],
+    "Nanjing Zhongke Microelectronics": [
+      "Nanjing Zhongke Microelectronics"
+    ],
+    "Nanya Tech": [
+      "Nanya Tech"
+    ],
+    "Nations Technologies Inc": [
+      "Nations Technologies Inc"
+    ],
+    "Navitas": [
+      "Navitas"
+    ],
+    "Nexperia": [
+      "Nexperia"
+    ],
+    "Nisshinbo Micro Devices Inc": [
+      "Nisshinbo Micro Devices Inc",
+      "Nisshinbo Micro Devices Inc."
+    ],
+    "Nordic Semicon": [
+      "Nordic Semicon"
+    ],
+    "Nuvoton Tech": [
+      "Nuvoton Tech"
+    ],
+    "Nyfea": [
+      "Nyfea"
+    ],
+    "Nyquest Tech": [
+      "Nyquest Tech"
+    ],
+    "OB(On-Bright Elec)": [
+      "OB On Bright Elec",
+      "OB(On-Bright Elec)"
+    ],
+    "OCIC": [
+      "OCIC"
+    ],
+    "OCX": [
+      "OCX"
+    ],
+    "OPSCO Optoelectronics": [
+      "OPSCO Optoelectronics"
+    ],
+    "OPTEK": [
+      "OPTEK"
+    ],
+    "ORIENTAL SEMI": [
+      "ORIENTAL SEMI"
+    ],
+    "OSEN": [
+      "OSEN"
+    ],
+    "OSRAM Opto Semicon": [
+      "OSRAM Opto Semicon"
+    ],
+    "OTW": [
+      "OTW"
+    ],
+    "OmniVision Technologies": [
+      "OmniVision Technologies"
+    ],
+    "Omron Electronics": [
+      "Omron Electronics"
+    ],
+    "OptoSupply": [
+      "OptoSupply"
+    ],
+    "Orient": [
+      "Orient"
+    ],
+    "PADAUK Tech": [
+      "PADAUK Tech"
+    ],
+    "PAKER": [
+      "PAKER"
+    ],
+    "PANASONIC": [
+      "PANASONIC"
+    ],
+    "PANJIT International": [
+      "PANJIT International"
+    ],
+    "PARALIGHT": [
+      "PARALIGHT"
+    ],
+    "PFC Device": [
+      "PFC Device"
+    ],
+    "PIELENST": [
+      "PIELENST"
+    ],
+    "PIP": [
+      "PIP"
+    ],
+    "PJSEMI": [
+      "PJSEMI"
+    ],
+    "PN SILICON": [
+      "PN SILICON"
+    ],
+    "POPPULA": [
+      "POPPULA"
+    ],
+    "POWER INTEGRATIONS": [
+      "POWER INTEGRATIONS"
+    ],
+    "POWERBUS": [
+      "POWERBUS"
+    ],
+    "POWLICON": [
+      "POWLICON"
+    ],
+    "PST": [
+      "PST"
+    ],
+    "PSemi": [
+      "PSemi"
+    ],
+    "PTC(Princeton Tech)": [
+      "PTC Princeton Tech",
+      "PTC(Princeton Tech)"
+    ],
+    "PTTC Polytronics Tech": [
+      "PTTC Polytronics Tech",
+      "PTTC(Polytronics Tech)"
+    ],
+    "PUOLOP": [
+      "PUOLOP"
+    ],
+    "PUYA(普冉)": [
+      "PUYA(普冉)"
+    ],
+    "PUYA)": [
+      "(PUYA)",
+      "PUYA",
+      "PUYA)"
+    ],
+    "Panchip Microele": [
+      "Panchip Microele"
+    ],
+    "Parade Technologies": [
+      "Parade Technologies"
+    ],
+    "Pericom/Diodes": [
+      "Pericom/Diodes"
+    ],
+    "Philips Semicons": [
+      "Philips Semicons"
+    ],
+    "PinTeng": [
+      "PinTeng"
+    ],
+    "PixArt": [
+      "PixArt"
+    ],
+    "Potens": [
+      "Potens"
+    ],
+    "PowTech CR PowTech Shanghai": [
+      "PowTech CR PowTech Shanghai",
+      "PowTech(CR-PowTech(Shanghai))"
+    ],
+    "Power X": [
+      "Power X"
+    ],
+    "ProTek Devices": [
+      "ProTek Devices"
+    ],
+    "Prolific Tech": [
+      "Prolific Tech"
+    ],
+    "QH MICRO-E": [
+      "QH MICRO E",
+      "QH MICRO-E"
+    ],
+    "QNH": [
+      "QNH"
+    ],
+    "QNHCHIP": [
+      "QNHCHIP"
+    ],
+    "QST": [
+      "QST"
+    ],
+    "QT Brightek (QTB)": [
+      "QT Brightek (QTB)",
+      "QT Brightek QTB"
+    ],
+    "QX Micro Devices": [
+      "QX Micro Devices"
+    ],
+    "Qingdao Eastsoft Communication Tech": [
+      "Qingdao Eastsoft Communication Tech"
+    ],
+    "Qorvo": [
+      "Qorvo"
+    ],
+    "Qualcomm": [
+      "Qualcomm"
+    ],
+    "RC Suzhou Ruikong Microelec": [
+      "RC Suzhou Ruikong Microelec"
+    ],
+    "REASUNOS": [
+      "REASUNOS"
+    ],
+    "RECTRON": [
+      "RECTRON"
+    ],
+    "RENERGY": [
+      "RENERGY"
+    ],
+    "ROHM": [
+      "ROHM"
+    ],
+    "ROHM Semiconductor": [
+      "ROHM Semicon"
+    ],
+    "RONGHE Microelectronics": [
+      "RONGHE Microelectronics"
+    ],
+    "RUILON(Shenzhen Ruilongyuan Elec)": [
+      "RUILON Shenzhen Ruilongyuan Elec",
+      "RUILON(Shenzhen Ruilongyuan Elec)"
+    ],
+    "RYCHIP Semiconductor Inc.": [
+      "RYCHIP Semiconductor Inc",
+      "RYCHIP Semiconductor Inc."
+    ],
+    "Raspberry Pi": [
+      "Raspberry Pi"
+    ],
+    "Rayson": [
+      "Rayson"
+    ],
+    "RealChip": [
+      "RealChip"
+    ],
+    "Realmagic": [
+      "Realmagic"
+    ],
+    "Realtek Semicon": [
+      "Realtek Semicon"
+    ],
+    "Renesas": [
+      "Intersil Renesas Electronics",
+      "Intersil(Renesas Electronics)",
+      "RENESAS",
+      "RENESAS/IDT",
+      "Renesas"
+    ],
+    "RichWave": [
+      "RichWave"
+    ],
+    "Richtek Tech": [
+      "Richtek Tech"
+    ],
+    "Ricoh Elec Devices": [
+      "Ricoh Elec Devices"
+    ],
+    "Rockchip": [
+      "Rockchip"
+    ],
+    "Ru Bo Microelectronics": [
+      "Ru Bo Microelectronics"
+    ],
+    "Runjet": [
+      "Runjet"
+    ],
+    "SALLTECH": [
+      "SALLTECH"
+    ],
+    "SANDISK": [
+      "SANDISK"
+    ],
+    "SCILICON ELECTRIC": [
+      "SCILICON ELECTRIC"
+    ],
+    "SCME": [
+      "SCME"
+    ],
+    "SCT": [
+      "SCT"
+    ],
+    "SEMBO": [
+      "SEMBO"
+    ],
+    "SEMIWARE": [
+      "SEMIWARE"
+    ],
+    "SEMTECH": [
+      "SEMTECH"
+    ],
+    "SENSORTEK": [
+      "SENSORTEK"
+    ],
+    "SEP": [
+      "SEP"
+    ],
+    "SETsafe  |  SETfuse": [
+      "SETsafe  |  SETfuse"
+    ],
+    "SGMICRO": [
+      "SGMICRO"
+    ],
+    "SHOUDING": [
+      "SHOUDING"
+    ],
+    "SI": [
+      "SI"
+    ],
+    "SICHE": [
+      "SICHE"
+    ],
+    "SILICON LABS": [
+      "SILICON LABS"
+    ],
+    "SIMCom Wireless Solutions Limited": [
+      "SIMCom Wireless Solutions Limited"
+    ],
+    "SINEDEVICE": [
+      "SINEDEVICE"
+    ],
+    "SINO-IC": [
+      "SINO IC",
+      "SINO-IC"
+    ],
+    "SIT": [
+      "SIT"
+    ],
+    "SK HYNIX": [
+      "SK HYNIX"
+    ],
+    "SKYWORKS SILICON LABS": [
+      "SKYWORKS SILICON LABS",
+      "SKYWORKS/SILICON LABS"
+    ],
+    "SM Switch": [
+      "SM Switch"
+    ],
+    "SMC Sangdest Microelectronicstronic Nanjing": [
+      "SMC Sangdest Microelectronicstronic Nanjing",
+      "SMC(Sangdest Microelectronicstronic (Nanjing))"
+    ],
+    "SOC(Shenzhen SinOne Microelectronics)": [
+      "SOC Shenzhen SinOne Microelectronics",
+      "SOC(Shenzhen SinOne Microelectronics)"
+    ],
+    "SOCAY Elec": [
+      "SOCAY Elec"
+    ],
+    "SOLA-IC": [
+      "SOLA IC",
+      "SOLA-IC"
+    ],
+    "SONIX": [
+      "SONIX"
+    ],
+    "SPANSION": [
+      "SPANSION"
+    ],
+    "SPS": [
+      "SPS"
+    ],
+    "SPTECH": [
+      "SPTECH"
+    ],
+    "ST": [
+      "ST"
+    ],
+    "ST Semtech": [
+      "ST Semtech",
+      "ST(Semtech)"
+    ],
+    "STANDEXMEDER": [
+      "STANDEXMEDER"
+    ],
+    "STANSON Tech.": [
+      "STANSON Tech."
+    ],
+    "STC Micro": [
+      "STC Micro"
+    ],
+    "STMicroelectronics": [
+      "STMicroelectronics"
+    ],
+    "SUNMATE Elec": [
+      "SUNMATE Elec"
+    ],
+    "SUPSiC": [
+      "SUPSiC"
+    ],
+    "SURGING": [
+      "SURGING"
+    ],
+    "SX Shenzhen Suosemi Tech": [
+      "SX Shenzhen Suosemi Tech",
+      "SX(Shenzhen Suosemi Tech)"
+    ],
+    "SX globalchip": [
+      "SX globalchip",
+      "SX-globalchip"
+    ],
+    "Saiya Sensor": [
+      "Saiya Sensor"
+    ],
+    "Sam&wing": [
+      "Sam wing",
+      "Sam&wing"
+    ],
+    "Samsung": [
+      "Samsung"
+    ],
+    "Samwin": [
+      "Samwin"
+    ],
+    "Sanken Elec": [
+      "Sanken Elec"
+    ],
+    "Seaward Elec": [
+      "Seaward Elec"
+    ],
+    "Seiko Epson": [
+      "Seiko Epson"
+    ],
+    "Semiment": [
+      "Semiment"
+    ],
+    "Semiwell": [
+      "Semiwell"
+    ],
+    "Senba Sensing Tech": [
+      "Senba Sensing Tech"
+    ],
+    "Sequoia Microelectronics": [
+      "Sequoia Microelectronics"
+    ],
+    "Shandong Jingdao Microelectronics": [
+      "Shandong Jingdao Microelectronics"
+    ],
+    "ShangHai Consonance Elec": [
+      "ShangHai Consonance Elec"
+    ],
+    "Shanghai Holychip Elec": [
+      "Shanghai Holychip Elec"
+    ],
+    "Shanghai Mingda Microelectronics": [
+      "Shanghai Mingda Microelectronics"
+    ],
+    "Shanghai Nicera Sensor": [
+      "Shanghai Nicera Sensor"
+    ],
+    "Shanghai Prisemi Elec": [
+      "Shanghai Prisemi Elec"
+    ],
+    "Shanghai Siproin Microelectronics": [
+      "Shanghai Siproin Microelectronics"
+    ],
+    "Shanghai Super Semiconductor": [
+      "Shanghai Super Semiconductor"
+    ],
+    "Sharp Microelectronics": [
+      "Sharp Microelectronics"
+    ],
+    "Shenzhen CYT Semicon Tech": [
+      "Shenzhen CYT Semicon Tech"
+    ],
+    "Shenzhen Chip Hope Micro-Electronics": [
+      "Shenzhen Chip Hope Micro-Electronics"
+    ],
+    "Shenzhen Developer Microelec.": [
+      "Shenzhen Developer Microelec."
+    ],
+    "Shenzhen DongKe Semicon": [
+      "Shenzhen DongKe Semicon"
+    ],
+    "Shenzhen FAST Sensors": [
+      "Shenzhen FAST Sensors"
+    ],
+    "Shenzhen Fuman Elec": [
+      "Shenzhen Fuman Elec"
+    ],
+    "Shenzhen JDT Fuse": [
+      "Shenzhen JDT Fuse"
+    ],
+    "Shenzhen JingYang": [
+      "Shenzhen JingYang"
+    ],
+    "Shenzhen Jinkaisheng Elec": [
+      "Shenzhen Jinkaisheng Elec"
+    ],
+    "Shenzhen Kinghelm Elec": [
+      "Shenzhen Kinghelm Elec"
+    ],
+    "Shenzhen Nsiway Tech": [
+      "Shenzhen Nsiway Tech"
+    ],
+    "Shenzhen Sunmoon Micro": [
+      "Shenzhen Sunmoon Micro"
+    ],
+    "Shenzhen Zhihao Elec": [
+      "Shenzhen Zhihao Elec"
+    ],
+    "Shenzhen ruichips Semicon": [
+      "Shenzhen ruichips Semicon"
+    ],
+    "Shikues": [
+      "Shikues"
+    ],
+    "ShunYe": [
+      "ShunYe"
+    ],
+    "Si Change": [
+      "Si Change",
+      "Si-Change"
+    ],
+    "Sichainsemi": [
+      "Sichainsemi"
+    ],
+    "Sifirst": [
+      "Sifirst"
+    ],
+    "Signal Micro": [
+      "Signal Micro"
+    ],
+    "Silergy": [
+      "Silergy",
+      "Silergy Corp"
+    ],
+    "Silicon Billion": [
+      "Silicon Billion"
+    ],
+    "Silicon Wisdom Tech": [
+      "Silicon Wisdom Tech"
+    ],
+    "Siliconmitus Silicon Mitus": [
+      "Siliconmitus Silicon Mitus"
+    ],
+    "Silicore": [
+      "Silicore"
+    ],
+    "Siliup": [
+      "Siliup"
+    ],
+    "Sillumin": [
+      "Sillumin"
+    ],
+    "Silverlight": [
+      "Silverlight"
+    ],
+    "Sinopower Semicon": [
+      "Sinopower Semicon"
+    ],
+    "Skyworks Solutions": [
+      "Skyworks Solutions"
+    ],
+    "Slkor(SLKORMICRO Elec.)": [
+      "Slkor SLKORMICRO Elec",
+      "Slkor(SLKORMICRO Elec.)"
+    ],
+    "Solomon Systech": [
+      "Solomon Systech"
+    ],
+    "SunLED": [
+      "SunLED"
+    ],
+    "Sungine": [
+      "Sungine"
+    ],
+    "Suntek": [
+      "Suntek"
+    ],
+    "Suzhou Good-Ark Elec": [
+      "Suzhou Good Ark Elec",
+      "Suzhou Good-Ark Elec"
+    ],
+    "Swissbit": [
+      "Swissbit"
+    ],
+    "Synoxo": [
+      "Synoxo"
+    ],
+    "TCS": [
+      "TCS"
+    ],
+    "TCWIN": [
+      "TCWIN"
+    ],
+    "TDD": [
+      "TDD"
+    ],
+    "TDK": [
+      "TDK"
+    ],
+    "TDK InvenSense": [
+      "TDK InvenSense"
+    ],
+    "TDSEMIC": [
+      "TDSEMIC"
+    ],
+    "TE Connectivity": [
+      "TE Connectivity"
+    ],
+    "TECH PUBLIC": [
+      "TECH PUBLIC"
+    ],
+    "TF": [
+      "TF"
+    ],
+    "TFSS": [
+      "TFSS"
+    ],
+    "THine Elec": [
+      "THine Elec"
+    ],
+    "TKS": [
+      "TKS"
+    ],
+    "TM(Shenzhen Titan Micro Elec)": [
+      "TM Shenzhen Titan Micro Elec",
+      "TM(Shenzhen Titan Micro Elec)"
+    ],
+    "TMI": [
+      "TMI"
+    ],
+    "TOGIALED": [
+      "TOGIALED"
+    ],
+    "TONYU": [
+      "TONYU"
+    ],
+    "TOPPOWER(Nanjing Extension Microelectronics)": [
+      "TOPPOWER Nanjing Extension Microelectronics",
+      "TOPPOWER(Nanjing Extension Microelectronics)"
+    ],
+    "TPOWER": [
+      "TPOWER"
+    ],
+    "TRINAMIC Motion Control GmbH": [
+      "TRINAMIC Motion Control GmbH"
+    ],
+    "TT Electronics": [
+      "TT Electronics"
+    ],
+    "TUOZHAN": [
+      "TUOZHAN"
+    ],
+    "TWGMC": [
+      "TWGMC"
+    ],
+    "Tai-Action": [
+      "Tai Action",
+      "Tai-Action"
+    ],
+    "Taisko": [
+      "Taisko"
+    ],
+    "Taiwan Semiconductor": [
+      "Taiwan Semiconductor"
+    ],
+    "Taiwan Semiconductor(Taiwan Semicon)": [
+      "Taiwan Semiconductor(Taiwan Semicon)"
+    ],
+    "Tak Cheong": [
+      "Tak Cheong"
+    ],
+    "Techcode Semicon": [
+      "Techcode Semicon"
+    ],
+    "Terminus Tech": [
+      "Terminus Tech"
+    ],
+    "Texas Instruments": [
+      "TEXAS INSTRUMENTS",
+      "TI",
+      "TI(德州仪器)",
+      "Texas Instruments",
+      "Texas instrument"
+    ],
+    "Texas Instruments TI": [
+      "Texas Instruments TI"
+    ],
+    "Tokmas": [
+      "Tokmas"
+    ],
+    "Tontek Design Tech": [
+      "Tontek Design Tech"
+    ],
+    "Torex Semicon": [
+      "Torex Semicon"
+    ],
+    "Toshiba": [
+      "TOSHIBA",
+      "Toshibia"
+    ],
+    "Tritech MOS": [
+      "Tritech MOS",
+      "Tritech-MOS"
+    ],
+    "Truesemi": [
+      "Truesemi"
+    ],
+    "Tudi": [
+      "Tudi"
+    ],
+    "UMW(Youtai Semiconductor Co., Ltd.)": [
+      "UMW Youtai Semiconductor Co Ltd",
+      "UMW(Youtai Semiconductor Co., Ltd.)"
+    ],
+    "UNI SEMIC": [
+      "UNI SEMIC",
+      "UNI-SEMIC"
+    ],
+    "UNI-SEMI": [
+      "UNI SEMI",
+      "UNI-SEMI"
+    ],
+    "UTC(Unisonic Tech)": [
+      "UTC Unisonic Tech",
+      "UTC(Unisonic Tech)"
+    ],
+    "Union Semiconductor": [
+      "Union Semiconductor"
+    ],
+    "VBsemi Elec": [
+      "VBsemi Elec"
+    ],
+    "VCC": [
+      "VCC"
+    ],
+    "VIA Tech": [
+      "VIA Tech"
+    ],
+    "VIBRATION": [
+      "VIBRATION"
+    ],
+    "VICOR": [
+      "VICOR"
+    ],
+    "VISHAY": [
+      "VISHAY"
+    ],
+    "VIVA": [
+      "VIVA"
+    ],
+    "VLSI Solution": [
+      "VLSI Solution"
+    ],
+    "VOLTAIC": [
+      "VOLTAIC"
+    ],
+    "VP": [
+      "VP"
+    ],
+    "VPSC": [
+      "VPSC"
+    ],
+    "Vanguard": [
+      "Vanguard"
+    ],
+    "Venkel": [
+      "Venkel"
+    ],
+    "Vilsion Tech": [
+      "Vilsion Tech"
+    ],
+    "Vishay Intertechnology": [
+      "Vishay Intertech"
+    ],
+    "Vollgo": [
+      "Vollgo"
+    ],
+    "WAVE": [
+      "WAVE"
+    ],
+    "WCH(Jiangsu Qin Heng)": [
+      "WCH Jiangsu Qin Heng",
+      "WCH(Jiangsu Qin Heng)"
+    ],
+    "WEIDA": [
+      "WEIDA"
+    ],
+    "WEIKAI": [
+      "WEIKAI"
+    ],
+    "WILLSEMI Will Semicon": [
+      "WILLSEMI Will Semicon",
+      "WILLSEMI(Will Semicon)",
+      "WILLSEMI(韦尔)"
+    ],
+    "WIZNET": [
+      "WIZNET"
+    ],
+    "WL": [
+      "WL"
+    ],
+    "WPMtek(Wei Pan Microelectronics)": [
+      "WPMtek Wei Pan Microelectronics",
+      "WPMtek(Wei Pan Microelectronics)"
+    ],
+    "WT Guangzhou Wei Chuang Elec": [
+      "WT Guangzhou Wei Chuang Elec"
+    ],
+    "WUXI TOP": [
+      "WUXI TOP"
+    ],
+    "WUXI UNIGROUP MICRO": [
+      "WUXI UNIGROUP MICRO"
+    ],
+    "WXNSIC": [
+      "WXNSIC"
+    ],
+    "Walsin Tech Corp": [
+      "Walsin Tech Corp"
+    ],
+    "Wayon": [
+      "Wayon"
+    ],
+    "WeEn Semiconductors": [
+      "WeEn Semiconductors"
+    ],
+    "Wild Goose": [
+      "Wild Goose"
+    ],
+    "Winbond": [
+      "Winbond"
+    ],
+    "Winbond Elec": [
+      "Winbond Elec"
+    ],
+    "Winchen": [
+      "Winchen"
+    ],
+    "Winsemi": [
+      "Winsemi"
+    ],
+    "Winsok Semicon": [
+      "Winsok Semicon"
+    ],
+    "Wolfspeed": [
+      "Wolfspeed"
+    ],
+    "Worldsemi": [
+      "Worldsemi"
+    ],
+    "Wurth": [
+      "Wurth"
+    ],
+    "Wurth Electronic": [
+      "Wurth Electronic"
+    ],
+    "Wurth Elektronik": [
+      "Wurth Elektronik"
+    ],
+    "Wuxi China Resources Huajing Microelectronics": [
+      "Wuxi China Resources Huajing Microelectronics"
+    ],
+    "Wuxi Chipown Micro-electronics": [
+      "Wuxi Chipown Micro electronics",
+      "Wuxi Chipown Micro-electronics"
+    ],
+    "Wuxi I-core Elec": [
+      "Wuxi I core Elec",
+      "Wuxi I-core Elec"
+    ],
+    "Wuxi Maxinmicro": [
+      "Wuxi Maxinmicro"
+    ],
+    "Wuxi NCE Power Semiconductor": [
+      "NCE",
+      "Wuxi NCE Power Semiconductor"
+    ],
+    "XBLW": [
+      "XBLW"
+    ],
+    "XCH": [
+      "XCH"
+    ],
+    "XDS": [
+      "XDS"
+    ],
+    "XHSC": [
+      "XHSC"
+    ],
+    "XI'AN Aerosemi Tech": [
+      "XI AN Aerosemi Tech",
+      "XI'AN Aerosemi Tech"
+    ],
+    "XICOR": [
+      "XICOR"
+    ],
+    "XILINX": [
+      "XILINX"
+    ],
+    "XIN FEI HONG": [
+      "XIN FEI HONG"
+    ],
+    "XINGLIGHT": [
+      "XINGLIGHT"
+    ],
+    "XINLUDA": [
+      "XINLUDA"
+    ],
+    "XKB Connectivity": [
+      "XKB Connectivity"
+    ],
+    "XLSEMI": [
+      "XLSEMI"
+    ],
+    "XMOS": [
+      "XMOS"
+    ],
+    "XNRUSEMI": [
+      "XNRUSEMI"
+    ],
+    "XSSY": [
+      "XSSY"
+    ],
+    "XTX": [
+      "XTX"
+    ],
+    "XUMAO": [
+      "XUMAO"
+    ],
+    "XZT": [
+      "XZT"
+    ],
+    "XySemi": [
+      "XySemi"
+    ],
+    "YAGEO": [
+      "YAGEO"
+    ],
+    "YANGJIE": [
+      "YANGJIE"
+    ],
+    "YFW": [
+      "YFW"
+    ],
+    "YICHIP": [
+      "YICHIP"
+    ],
+    "YLPTEC": [
+      "YLPTEC"
+    ],
+    "YONGYUTAI": [
+      "YONGYUTAI"
+    ],
+    "YW": [
+      "YW"
+    ],
+    "YXC Crystal Oscillators": [
+      "YXC Crystal Oscillators"
+    ],
+    "Yangzhou Yangjie Elec Tech": [
+      "Yangzhou Yangjie Elec Tech"
+    ],
+    "Yenji Elec": [
+      "Yenji Elec"
+    ],
+    "Yint": [
+      "Yint"
+    ],
+    "Yongyu Photoelectric": [
+      "Yongyu Photoelectric"
+    ],
+    "ZHHXDZ": [
+      "ZHHXDZ"
+    ],
+    "ZHIDE": [
+      "ZHIDE"
+    ],
+    "ZHONGKEWEI": [
+      "ZHONGKEWEI"
+    ],
+    "ZHXN": [
+      "ZHXN"
+    ],
+    "ZILLTEK": [
+      "ZILLTEK"
+    ],
+    "ZJW": [
+      "ZJW"
+    ],
+    "ZLG Zhiyuan Elec": [
+      "ZLG Zhiyuan Elec"
+    ],
+    "ZRE": [
+      "ZRE"
+    ],
+    "ZYMICRO": [
+      "ZYMICRO"
+    ],
+    "Zetta": [
+      "Zetta"
+    ],
+    "Zynalog": [
+      "Zynalog"
+    ],
+    "amsem": [
+      "amsem"
+    ],
+    "analogysemi": [
+      "analogysemi"
+    ],
+    "baocheng": [
+      "baocheng"
+    ],
+    "baocheng(Shandong Baocheng Elec)": [
+      "baocheng Shandong Baocheng Elec",
+      "baocheng(Shandong Baocheng Elec)"
+    ],
+    "chipup": [
+      "chipup"
+    ],
+    "coileasy": [
+      "coileasy"
+    ],
+    "etasolution": [
+      "etasolution"
+    ],
+    "hongjiacheng": [
+      "hongjiacheng"
+    ],
+    "iCM": [
+      "iCM"
+    ],
+    "iModule": [
+      "iModule"
+    ],
+    "miracle": [
+      "miracle"
+    ],
+    "onsemi": [
+      "ON Semicon",
+      "ON Semicon ON",
+      "ON Semiconductor",
+      "onsemi"
+    ],
+    "orisilicon": [
+      "orisilicon"
+    ],
+    "prosemi": [
+      "prosemi"
+    ],
+    "radiolink": [
+      "radiolink"
+    ],
+    "rlt": [
+      "rlt"
+    ],
+    "waferbest": [
+      "waferbest"
+    ],
+    "wisesun": [
+      "wisesun"
+    ]
+  }
+}

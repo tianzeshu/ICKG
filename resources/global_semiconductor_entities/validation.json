@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "entities": 215708,
+  "unique_entity_ids": 215708,
+  "unique_manufacturer_model_pairs": 215708,
+  "manufacturers": 770,
+  "source_references": 278767,
+  "source_snapshots_listed": 417,
+  "uncompressed_sha256": "5c4fc42f09771e2ac9ce797a5cb6ee83de64f9f6c3e5eb550363d1471d7da8c1",
+  "compressed_sha256": "e3c8792def0e4c24fc003b7d7b115bec410d057be982edfa5db89c79dd11e17c",
+  "human_verified_records": 0,
+  "source_files_included": false,
+  "scope": "counts, identities, fields, provenance references and released file hashes; no individual human engineering-fact verification"
+}

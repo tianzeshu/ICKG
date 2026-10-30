@@ -1,0 +1,13 @@
+{
+  "task": "temporal_knowledge_graph_reasoning",
+  "status": "final_chronological_experimental_split_not_archived",
+  "train_dev_test_files_provided": false,
+  "paper_results_reproducible_from_this_directory": false,
+  "required_artifacts": [
+    "actual train/dev/test quadruple files",
+    "complete entity/relation/time ID maps",
+    "fixed chronological boundaries and temporal precision",
+    "unknown-time and planned-fact handling",
+    "matching filtered ranking evaluator and run configs"
+  ]
+}

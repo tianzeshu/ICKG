@@ -1,0 +1,23 @@
+[
+  {
+    "name": "CoNLL03",
+    "url": "https://huggingface.co/datasets/eriktks/conll2003",
+    "task": "NER"
+  },
+  {
+    "name": "DocRED",
+    "url": "https://github.com/thunlp/DocRED",
+    "task": "RE"
+  },
+  {
+    "name": "ECB+",
+    "url": "https://github.com/cltl/ecbPlus",
+    "task": "entity coreference"
+  },
+  {
+    "name": "ICEWS14 / ICEWS05-15 / ICEWS18",
+    "url": "https://github.com/Lee-zix/RE-GCN",
+    "task": "TKG",
+    "note": "Baseline repository documents its three ICEWS data variants and preparation; freeze the exact release used in each experiment."
+  }
+]

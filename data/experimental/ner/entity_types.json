@@ -1,0 +1,12 @@
+{
+  "entity_types": [
+    "Industry",
+    "Company",
+    "Product",
+    "Policy",
+    "Patent",
+    "Report",
+    "Person"
+  ],
+  "count": 7
+}
