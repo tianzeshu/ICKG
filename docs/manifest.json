@@ -45,12 +45,31 @@
   },
   "ui_assets": {
     "base.css": "8ea2463be0d78148174ad752a4f07a1e9a79287842bf9f5657099aa57c0122cd",
-    "theme.css": "46ac6a3805f626333387e2cf65083e477b816e65594f112365e9ce597dbbbe17",
+    "theme.css": "f269de8b5fb0a43ae241a82968dacec4b49f8feeffc789b5d392a15aa34dd46e",
     "polish.css": "c963e83055a331b63aa349837315a1d45659d232d39bd6e8314a9f7a66056de0",
     "core.js": "c83bfb42167bd209047c4856391b177e6780caad89f810c1a404b6870c98345b",
-    "app.js": "577097417936bf02f0d237bb7560d1d0c91ce94eb7ca0e7e5109c5ad68137f62",
+    "app.js": "3d0df616a277d73e02d6dd6e006ae356405cf022047e55729b9c30c9ca6fe387",
     "ui.js": "09f97f85be43342324b2be80d29a2b8e23c392977c69e8997641cda952eceab3",
     "bootstrap.js": "ebda1ffc918fc9efa2f6d22f98c7a99d240347fa4cd331e8930ed320c96b0efa",
     "favicon.svg": "6409e14f2ec3f91366d957a682f032d358bd017028b77da606c68f33c5fe1765"
+  },
+  "overview_presentation": {
+    "style": "paper_reference_colored_rectangular_frames_with_centered_title_tabs",
+    "palette": {
+      "Industry": "#6676cd",
+      "Company": "#2fad98",
+      "Product": "#efb900",
+      "Policy": "#ff4c51",
+      "Patent": "#2aa6bf",
+      "Report": "#2598c4",
+      "Person": "#f3a875"
+    },
+    "card_bounds_unchanged": true,
+    "edge_paths_unchanged": true,
+    "data_payload_unchanged": true,
+    "preview_assets": {
+      "assets/full-overview.png": "83262eaae178448f5d6dc8178c3775690abc8a33b2af4a876f8ad9dbec91f321",
+      "assets/full-overview.svg": "186a526c165ebd3a7db3ddfc2ff965b0f458474c3342a81f06fc261c8eafb21b"
+    }
   }
 }

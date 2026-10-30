@@ -232,10 +232,10 @@ a:hover { color: #086b5b; }
 .svg-shell { max-width: 100%; min-height: 450px; overflow: auto; border-radius: 0 0 16px 16px; background-color: #fbfcfd; background-image: radial-gradient(#d9e2e9 .7px, transparent .7px); background-size: 17px 17px; }
 .overview { display: block; width: 100%; min-width: 660px; height: auto; }
 .layer-card { cursor: pointer; }
-.layer-card > rect:first-of-type { rx: 14px; transition: stroke .18s, filter .18s; }
-.layer-card:hover > rect:first-of-type { filter: drop-shadow(0 3px 5px #244c6320); stroke-width: 2px; }
+#seven-layer-svg .layer-card > rect:first-of-type { rx: 0; transition: stroke-width .18s; }
+#seven-layer-svg .layer-card:hover > rect:first-of-type { filter: none; stroke-width: 2.3px; }
 .layer-card:focus-visible { outline: none; }
-.layer-card:focus-visible > rect:first-of-type { stroke: #128774; stroke-width: 3px; }
+#seven-layer-svg .layer-card:focus-visible > rect:first-of-type { stroke-width: 3px; }
 .canvas-shell { position: relative; height: 660px; overflow: hidden; border-radius: 0 0 16px 16px; background: #112538; }
 canvas { display: block; width: 100%; height: 100%; cursor: grab; touch-action: none; }
 canvas:active { cursor: grabbing; }
